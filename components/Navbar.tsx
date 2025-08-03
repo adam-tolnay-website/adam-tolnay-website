@@ -1,49 +1,44 @@
-"use client";
-import { Button } from "@/components/ui/button";
-import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
-import Link from "next/link";
-import { siteConfig } from "@/lib/config/site";
-import { useContext, useState } from "react";
+'use client';
+import { Button } from "@/components/ui/button"
+import { SheetTrigger, SheetContent, Sheet, SheetHeader, SheetTitle } from "@/components/ui/sheet"
+import Link from "next/link"
+import { siteConfig } from "@/lib/config/site"
+import { useState } from "react"
 import { DiscIcon, Mail, Menu } from "lucide-react";
 
 export default function Nav() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header
-      className="sticky top-0 z-50 backdrop-blur bg-background/80 border-b border-foreground/10"
-      role="navigation"
-    >
-      <div className="flex max-w-7xl mx-auto h-16 items-center justify-between px-4 md:px-6">
+    <header className="sticky top-0 z-50 backdrop-blur bg-background/25 px-4" role="navigation">
+      <div className="flex max-w-6xl mx-auto h-24 items-center justify-between">
         <div className="flex items-center gap-6">
-          <Link className="flex items-center gap-2 text-lg" href="/">
-            <p className="font-bold">Hackpost</p>
-            <p className="">Guide</p>
+          <Link className="flex items-center text-lg" href="/">
+            <p className="font-bold">{siteConfig.name}</p>
           </Link>
           <div className="hidden lg:flex">
             {siteConfig.navItems.map((item) => (
               <div key={item.href}>
-                <Button variant="ghost" asChild>
-                  <Link href={item.href}>{item.label}</Link>
+                <Button
+                  variant="ghost"
+                  asChild
+                >
+                  <Link href={item.href}>
+                    {item.label}
+                  </Link>
                 </Button>
               </div>
             ))}
           </div>
         </div>
 
-        <div className="flex items-right">
+        <div className="flex items-center">
           <div className="flex items-center justify-between mr-6">
-            <Button variant="ghost" size="icon" asChild>
-              <Link
-                href={siteConfig.links.discord}
-                aria-label="Discord"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <DiscIcon className="text-default-500 w-5 h-5" />
-              </Link>
-            </Button>
-            <Button variant="ghost" size="icon" asChild>
+            <Button
+              variant="ghost"
+              size="icon"
+              asChild
+            >
               <Link
                 href={siteConfig.links.github}
                 aria-label="Github"
@@ -51,7 +46,7 @@ export default function Nav() {
                 rel="noopener noreferrer"
               >
                 <Mail className="text-default-500 w-5 h-5" />
-              </Link>
+              </Link> 
             </Button>
           </div>
 
@@ -69,38 +64,38 @@ export default function Nav() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right">
-              <Link className="mr-6 hidden lg:flex" href="/">
-                <span className="sr-only">Hackpost Guide</span>
-              </Link>
-              <div className="grid gap-2 py-6">
-                <div key={`${item}-${index}`}>
-                  {index === siteConfig.navMenuItems.length - 1 ? (
-                    <Button
-                      onClick={() => setIsMenuOpen(false)}
-                      variant="default"
-                      className="mt-2"
-                      size="lg"
-                      asChild
-                    >
-                      <Link href="/enter">
-                        <p className="text-background">Login / Sign Up</p>
-                      </Link>
-                    </Button>
-                  ) : (
-                    <Link
-                      color={"foreground"}
-                      href={item.href}
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      <p>{item.label}</p>
+              <SheetHeader>
+                <SheetTitle>Navigation Menu</SheetTitle>
+              </SheetHeader>
+              <div className="grid gap-4 py-6">
+                {siteConfig.navItems.map((item) => (
+                  <Button
+                    key={item.href}
+                    variant="ghost"
+                    className="justify-start"
+                    onClick={() => setIsMenuOpen(false)}
+                    asChild
+                  >
+                    <Link href={item.href}>
+                      {item.label}
                     </Link>
-                  )}
-                </div>
+                  </Button>
+                ))}
+                <Button
+                  onClick={() => setIsMenuOpen(false)}
+                  variant="default"
+                  className="mt-4"
+                  asChild
+                >
+                  <Link href="/">
+                    Login / Sign Up
+                  </Link>
+                </Button>
               </div>
             </SheetContent>
           </Sheet>
         </div>
       </div>
     </header>
-  );
+  )
 }

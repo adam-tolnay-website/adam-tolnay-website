@@ -1,21 +1,21 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Hackpost Guide",
+  name: "Adam Tolnay",
   description:
     "The open source resource hub for hackathoners. Free. Community Driven.",
   navItems: [
     {
-      label: "About",
-      href: "/about",
+      label: "Testimonials",
+      href: "#testimonials",
     },
     {
-      label: "Guides",
-      href: "/explore",
+      label: "Subjects",
+      href: "#subjects",
     },
     {
-      label: "Hackathon!",
-      href: "https://hackathon.hackpost.guide",
+      label: "Who am I",
+      href: "#bio",
     },
   ],
   navMenuItems: [
