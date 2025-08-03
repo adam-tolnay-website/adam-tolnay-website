@@ -4,7 +4,7 @@ import { SheetTrigger, SheetContent, Sheet, SheetHeader, SheetTitle } from "@/co
 import Link from "next/link"
 import { siteConfig } from "@/lib/config/site"
 import { useState } from "react"
-import { DiscIcon, Mail, Menu } from "lucide-react";
+import { Video, Mail, Menu } from "lucide-react";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -14,7 +14,7 @@ export default function Nav() {
       <div className="flex max-w-6xl mx-auto h-24 items-center justify-between">
         <div className="flex items-center gap-6">
           <Link className="flex items-center text-lg" href="/">
-            <p className="font-bold">{siteConfig.name}</p>
+            <p className="text-xl font-semibold">{siteConfig.name}</p>
           </Link>
           <div className="hidden lg:flex">
             {siteConfig.navItems.map((item) => (
@@ -23,7 +23,7 @@ export default function Nav() {
                   variant="ghost"
                   asChild
                 >
-                  <Link href={item.href}>
+                  <Link href={item.href} className="text-lg font-normal">
                     {item.label}
                   </Link>
                 </Button>
@@ -35,16 +35,17 @@ export default function Nav() {
         <div className="flex items-center">
           <div className="flex items-center justify-between mr-6">
             <Button
-              variant="ghost"
-              size="icon"
+              variant="outline"
+              size="default"
               asChild
             >
               <Link
-                href={siteConfig.links.github}
-                aria-label="Github"
+                href={siteConfig.links.email}
+                aria-label="Email"
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                Contact Me
                 <Mail className="text-default-500 w-5 h-5" />
               </Link> 
             </Button>
@@ -52,7 +53,10 @@ export default function Nav() {
 
           <div className="hidden lg:flex">
             <Button color="primary" className="text-sm font-normal" asChild>
-              <Link href="/">Login / Sign Up</Link>
+              <Link href="/">
+                <Video className="text-default-500 w-5 h-5 mt-0.5" />
+                Book a Lesson
+              </Link>
             </Button>
           </div>
 

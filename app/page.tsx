@@ -25,7 +25,7 @@ export default function Home() {
             </Badge>
 
             {/* Main heading */}
-            <h1 className="text-5xl lg:text-7xl font-bold tracking-tight leading-tight">
+            <h1 className="text-5xl lg:text-7xl font-playfair-display font-semibold tracking-tight leading-tight">
               Adam Tolnay
             </h1>
 
