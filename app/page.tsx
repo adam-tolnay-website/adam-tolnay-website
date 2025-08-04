@@ -19,11 +19,11 @@ export default function Home() {
     // Implement your booking logic here
     // Could scroll to contact form, open modal, redirect to booking page, etc.
     console.log("Booking clicked - implement your booking logic");
-    
+
     // Example: scroll to contact section
     // const contactSection = document.getElementById('contact');
     // contactSection?.scrollIntoView({ behavior: 'smooth' });
-    
+
     // Example: open external booking link
     // window.open('https://calendly.com/your-booking-link', '_blank');
   };
@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <div className="min-h-screen px-4">
       {/* Hero Section */}
-      <HeroSection 
+      <HeroSection
         title="Adam Tolnay"
         subtitle="Transform your programming journey with personalized tutoring and expert guidance. From fundamentals to advanced concepts, I'll help you achieve your coding goals."
         ctaText="Book a Lesson Today"

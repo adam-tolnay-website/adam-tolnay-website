@@ -15,7 +15,7 @@ const HeroSection = ({
   title = "Adam Tolnay",
   subtitle = "Transform your programming journey with personalized tutoring and expert guidance. From fundamentals to advanced concepts, I&apos;ll help you achieve your coding goals.",
   ctaText = "Book a Lesson Today",
-  onCtaClick
+  onCtaClick,
 }: HeroSectionProps) => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -38,38 +38,42 @@ const HeroSection = ({
     <section className="flex items-center py-20" aria-label="Hero section">
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
         {/* Left side - Text content */}
-        <div className={`space-y-8 transition-all duration-700 ease-out ${
-          isVisible 
-            ? 'opacity-100 translate-y-0' 
-            : 'opacity-0 translate-y-8'
-        }`}>
+        <div
+          className={`space-y-8 transition-all duration-700 ease-out ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
+        >
           {/* Badge */}
           <Badge
             variant="secondary"
             className={`px-4 py-2 text-sm font-medium bg-secondary/50 text-secondary-foreground border-secondary/30 rounded-full transition-all duration-700 delay-100 ${
-              isVisible 
-                ? 'opacity-100 translate-y-0' 
-                : 'opacity-0 translate-y-4'
+              isVisible
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-4"
             }`}
           >
             ✨ Professional Tutor
           </Badge>
 
           {/* Main heading */}
-          <h1 className={`text-5xl lg:text-7xl elegant-heading font-bold tracking-tight leading-tight text-foreground transition-all duration-700 delay-200 ${
-            isVisible 
-              ? 'opacity-100 translate-y-0' 
-              : 'opacity-0 translate-y-8'
-          }`}>
+          <h1
+            className={`text-5xl lg:text-7xl elegant-heading font-bold tracking-tight leading-tight text-foreground transition-all duration-700 delay-200 ${
+              isVisible
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-8"
+            }`}
+          >
             {title}
           </h1>
 
           {/* Subtitle */}
-          <p className={`text-xl lg:text-2xl elegant-text text-muted-foreground leading-relaxed max-w-lg transition-all duration-700 delay-300 ${
-            isVisible 
-              ? 'opacity-100 translate-y-0' 
-              : 'opacity-0 translate-y-6'
-          }`}>
+          <p
+            className={`text-xl lg:text-2xl elegant-text text-muted-foreground leading-relaxed max-w-lg transition-all duration-700 delay-300 ${
+              isVisible
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-6"
+            }`}
+          >
             {subtitle}
           </p>
 
@@ -77,11 +81,11 @@ const HeroSection = ({
           <Button
             onClick={handleCtaClick}
             className={`bg-primary hover:bg-primary/90 text-primary-foreground w-fit px-6 sm:px-10 py-4 text-lg sm:text-xl elegant-text font-semibold shadow-2xl hover:shadow-3xl transition-all duration-300 h-auto transform hover:scale-105 ${
-              isVisible 
-                ? 'opacity-100 translate-y-0' 
-                : 'opacity-0 translate-y-4'
+              isVisible
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-4"
             }`}
-            style={{ transitionDelay: '400ms' }}
+            style={{ transitionDelay: "400ms" }}
             aria-label={`${ctaText} - Contact Adam for programming lessons`}
           >
             {ctaText}
@@ -103,11 +107,11 @@ const HeroSection = ({
         </div>
 
         {/* Right side - Image */}
-        <div className={`relative transition-all duration-700 delay-500 ${
-          isVisible 
-            ? 'opacity-100 translate-x-0' 
-            : 'opacity-0 translate-x-8'
-        }`}>
+        <div
+          className={`relative transition-all duration-700 delay-500 ${
+            isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-8"
+          }`}
+        >
           {/* Main image */}
           <div className="relative">
             <Image

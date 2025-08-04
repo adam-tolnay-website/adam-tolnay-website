@@ -35,13 +35,14 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${raleway.variable} ${playfairDisplay.variable} ${jetBrainsMono.variable} antialiased`}
-      ><div className="">
-        <Navbar />
-        <div className="max-w-7xl mx-auto">
-          <main>{children}</main>
+      >
+        <div className="">
+          <Navbar />
+          <div className="max-w-7xl mx-auto">
+            <main>{children}</main>
+          </div>
+          <Footer />
         </div>
-        <Footer />
-      </div>
       </body>
     </html>
   );

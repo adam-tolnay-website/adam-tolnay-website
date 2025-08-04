@@ -30,46 +30,51 @@ const TestimonialsSection = () => {
       name: "Sarah Chen",
       role: "Software Engineer",
       company: "Google",
-      content: "Adam's teaching style is incredible. He made complex algorithms feel simple and intuitive. Landed my dream job at Google thanks to his guidance!",
+      content:
+        "Adam's teaching style is incredible. He made complex algorithms feel simple and intuitive. Landed my dream job at Google thanks to his guidance!",
       rating: 5,
-      avatar: "SC"
+      avatar: "SC",
     },
     {
       id: 2,
       name: "Marcus Johnson",
       role: "Full Stack Developer",
       company: "Meta",
-      content: "The one-on-one sessions were game-changing. Adam adapted to my learning pace perfectly and helped me transition from complete beginner to confident developer.",
+      content:
+        "The one-on-one sessions were game-changing. Adam adapted to my learning pace perfectly and helped me transition from complete beginner to confident developer.",
       rating: 5,
-      avatar: "MJ"
+      avatar: "MJ",
     },
     {
       id: 3,
       name: "Emily Rodriguez",
       role: "Frontend Developer",
       company: "Airbnb",
-      content: "Best investment I've made in my career. Adam's practical approach and real-world examples made learning React and JavaScript so much easier.",
+      content:
+        "Best investment I've made in my career. Adam's practical approach and real-world examples made learning React and JavaScript so much easier.",
       rating: 5,
-      avatar: "ER"
+      avatar: "ER",
     },
     {
       id: 4,
       name: "David Kim",
       role: "Backend Developer",
       company: "Netflix",
-      content: "Adam helped me master Python and system design. His structured approach and patience made all the difference in my technical interviews.",
+      content:
+        "Adam helped me master Python and system design. His structured approach and patience made all the difference in my technical interviews.",
       rating: 5,
-      avatar: "DK"
+      avatar: "DK",
     },
     {
       id: 5,
       name: "Lisa Wang",
       role: "Data Scientist",
       company: "Tesla",
-      content: "Exceptional tutor! Adam's deep knowledge and ability to explain complex concepts simply helped me pivot into data science successfully.",
+      content:
+        "Exceptional tutor! Adam's deep knowledge and ability to explain complex concepts simply helped me pivot into data science successfully.",
       rating: 5,
-      avatar: "LW"
-    }
+      avatar: "LW",
+    },
   ];
 
   // Second row testimonials
@@ -79,46 +84,51 @@ const TestimonialsSection = () => {
       name: "James Thompson",
       role: "DevOps Engineer",
       company: "Amazon",
-      content: "Adam's expertise in cloud technologies and deployment strategies was exactly what I needed. Now I'm confidently managing AWS infrastructure.",
+      content:
+        "Adam's expertise in cloud technologies and deployment strategies was exactly what I needed. Now I'm confidently managing AWS infrastructure.",
       rating: 5,
-      avatar: "JT"
+      avatar: "JT",
     },
     {
       id: 7,
       name: "Ana Martinez",
       role: "Mobile Developer",
       company: "Spotify",
-      content: "Learning React Native with Adam was fantastic. His hands-on projects and debugging sessions prepared me perfectly for mobile development.",
+      content:
+        "Learning React Native with Adam was fantastic. His hands-on projects and debugging sessions prepared me perfectly for mobile development.",
       rating: 5,
-      avatar: "AM"
+      avatar: "AM",
     },
     {
       id: 8,
       name: "Robert Chen",
       role: "Machine Learning Engineer",
       company: "OpenAI",
-      content: "Adam's guidance on ML algorithms and TensorFlow was invaluable. His teaching helped me understand both theory and practical implementation.",
+      content:
+        "Adam's guidance on ML algorithms and TensorFlow was invaluable. His teaching helped me understand both theory and practical implementation.",
       rating: 5,
-      avatar: "RC"
+      avatar: "RC",
     },
     {
       id: 9,
       name: "Sophie Laurent",
       role: "Product Engineer",
       company: "Stripe",
-      content: "The certification prep sessions were thorough and well-structured. Adam's mock interviews gave me the confidence to ace my technical rounds.",
+      content:
+        "The certification prep sessions were thorough and well-structured. Adam's mock interviews gave me the confidence to ace my technical rounds.",
       rating: 5,
-      avatar: "SL"
+      avatar: "SL",
     },
     {
       id: 10,
       name: "Michael Park",
       role: "Security Engineer",
       company: "Cloudflare",
-      content: "Adam's cybersecurity and secure coding practices training was top-notch. His real-world experience shows in every lesson.",
+      content:
+        "Adam's cybersecurity and secure coding practices training was top-notch. His real-world experience shows in every lesson.",
       rating: 5,
-      avatar: "MP"
-    }
+      avatar: "MP",
+    },
   ];
 
   // Create duplicated arrays for seamless infinite scroll
@@ -133,19 +143,21 @@ const TestimonialsSection = () => {
             {testimonial.avatar}
           </div>
           <div className="flex-1">
-            <h4 className="font-semibold text-foreground">{testimonial.name}</h4>
+            <h4 className="font-semibold text-foreground">
+              {testimonial.name}
+            </h4>
             <p className="text-sm text-muted-foreground">
               {testimonial.role} at {testimonial.company}
             </p>
           </div>
         </div>
-        
+
         <div className="flex mb-3">
           {[...Array(testimonial.rating)].map((_, i) => (
             <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
           ))}
         </div>
-        
+
         <p className="text-muted-foreground leading-relaxed text-sm">
           &ldquo;{testimonial.content}&rdquo;
         </p>
@@ -154,9 +166,9 @@ const TestimonialsSection = () => {
   );
 
   return (
-    <section 
+    <section
       className={`py-20 overflow-hidden transition-all duration-700 ${
-        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
       }`}
       aria-label="Student testimonials"
     >
@@ -181,17 +193,17 @@ const TestimonialsSection = () => {
         <div className="relative -mx-4 overflow-hidden">
           {/* First Row - Moving Right */}
           <div className="mb-4">
-            <div 
+            <div
               className="flex testimonial-scroll-right hover:pause-animation"
               style={{
-                animation: 'scrollRight 40s linear infinite',
-                width: 'fit-content'
+                animation: "scrollRight 40s linear infinite",
+                width: "fit-content",
               }}
             >
               {extendedTestimonials1.map((testimonial, index) => (
-                <TestimonialCard 
-                  key={`${testimonial.id}-${index}`} 
-                  testimonial={testimonial} 
+                <TestimonialCard
+                  key={`${testimonial.id}-${index}`}
+                  testimonial={testimonial}
                 />
               ))}
             </div>
@@ -199,17 +211,17 @@ const TestimonialsSection = () => {
 
           {/* Second Row - Moving Left */}
           <div>
-            <div 
+            <div
               className="flex testimonial-scroll-left hover:pause-animation"
               style={{
-                animation: 'scrollLeft 40s linear infinite',
-                width: 'fit-content'
+                animation: "scrollLeft 40s linear infinite",
+                width: "fit-content",
               }}
             >
               {extendedTestimonials2.map((testimonial, index) => (
-                <TestimonialCard 
-                  key={`${testimonial.id}-${index}`} 
-                  testimonial={testimonial} 
+                <TestimonialCard
+                  key={`${testimonial.id}-${index}`}
+                  testimonial={testimonial}
                 />
               ))}
             </div>
