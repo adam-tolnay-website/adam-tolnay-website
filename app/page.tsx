@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useState, useEffect, use } from "react";
+import Image from "next/image";
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -127,9 +128,11 @@ export default function Home() {
           }`}>
             {/* Main image placeholder */}
             <div className="relative">
-              <img
-                src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop&crop=entropy&auto=format"
+              <Image
+                src="https://res.cloudinary.com/dqdasxxho/image/upload/v1754333956/Haloway_hero_image_cwv3b6.png"
                 alt="Team collaboration and digital innovation"
+                width={800}
+                height={600}
                 className="w-full h-[600px] object-cover rounded-2xl shadow-2xl"
               />
 
@@ -166,13 +169,14 @@ export default function Home() {
               >
                 <CardHeader className="space-y-4 pb-4">
                   {/* Card Image with padding inside */}
-                  <div className="relative h-48 overflow-hidden rounded-lg">
-                    <img
+                    <div className="relative h-48 overflow-hidden rounded-lg">
+                    <Image
                       src={card.image}
                       alt={card.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-102 rounded-lg"
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-102 rounded-lg"
                     />
-                  </div>
+                    </div>
 
                   <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">
                     {card.title}
