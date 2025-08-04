@@ -29,44 +29,44 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
 
   const cards: SubjectCard[] = [
     {
-      title: "Programming Fundamentals",
+      title: "Science Fiction & Fantasy Writing",
       description:
-        "Master the core concepts of programming with hands-on practice and real-world examples.",
+        "Master the core concepts of storytelling, world-building, and character development.",
       image:
         "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "One-on-One Sessions",
+      title: "Greek Classics",
       description:
-        "Personalized tutoring sessions tailored to your learning pace and specific goals.",
+        "Explore the rich literature and philosophy of ancient Greece.",
       image:
         "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "Fast-Track Learning",
+      title: "College Application Prep",
       description:
-        "Accelerated learning paths designed to get you coding confidently in record time.",
+        "Comprehensive support for college applications, including essay writing and interview preparation.",
       image:
         "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "Goal-Oriented Approach",
+      title: "AP Lang & AP Lit",
       description:
-        "Structured curriculum focused on achieving your specific programming objectives.",
+        "Structured curriculum focused on achieving your specific literary analysis and composition goals.",
       image:
         "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "Certification Prep",
+      title: "Writing Competitions",
       description:
-        "Comprehensive preparation for industry-recognized programming certifications.",
+        "Comprehensive preparation for writing competitions at various levels.",
       image:
         "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "Interactive Learning",
+      title: "General English Tutoring",
       description:
-        "Engaging video tutorials and interactive coding exercises for better retention.",
+        "Personalized lessons focusing on reading, writing, and communication skills.",
       image:
         "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },

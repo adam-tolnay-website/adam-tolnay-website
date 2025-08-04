@@ -93,11 +93,11 @@ const HeroSection = ({
                     {/* Main image */}
                     <div className="relative">
                         <Image
-                            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt="Professional tutor Adam Tolnay"
                             width={800}
-                            height={600}
-                            className="w-full h-[600px] object-cover rounded-2xl shadow-2xl"
+                            height={700}
+                            className="w-full h-[700px] object-cover rounded-2xl shadow-2xl"
                             priority
                             sizes="(max-width: 768px) 100vw, 50vw"
                         />

@@ -29,7 +29,7 @@ export default function FAQ() {
       answer: "Response 3",
     },
     {
-      question: "What if I'm a complete beginner?",
+      question: "How much do lessons cost?",
       answer: "Response 4",
     },
     {

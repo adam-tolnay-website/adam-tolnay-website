@@ -27,8 +27,8 @@ export const siteConfig = {
   ],
   links: {
     email: "mailto:adamtolnay@gmail.com",
-    book: "https://calendly.com/adamtolnay/30min", // replace with booking link
-    zoom: "https://calendly.com/adamtolnay/zoom", // replace with Zoom link
-    linkedin: "https://www.linkedin.com/in/adamtolnay/", // replace with LinkedIn profile
+    book: "https://calendly.com/", // replace with booking link
+    zoom: "https://calendly.com/", // replace with Zoom link
+    linkedin: "https://www.linkedin.com/in/adam-tolnay-072b491a9/", // replace with LinkedIn profile
   },
 };
