@@ -22,8 +22,13 @@ export default function Nav() {
                 <Button
                   variant="ghost"
                   asChild
+                  className="hover:bg-transparent"
                 >
-                  <Link href={item.href} className="text-lg elegant-text font-normal">
+                  <Link 
+                    href={item.href} 
+                    className="text-lg elegant-text font-normal transition-all duration-300 hover:text-primary"
+                    style={{ textShadow: '0 0 8px rgba(255, 255, 255, 0.8)' }}
+                  >
                     {item.label}
                   </Link>
                 </Button>
@@ -70,9 +75,9 @@ export default function Nav() {
             </SheetTrigger>
             <SheetContent side="right">
               <SheetHeader>
-                <SheetTitle>Navigation Menu</SheetTitle>
+                <SheetTitle>{siteConfig.name}</SheetTitle>
               </SheetHeader>
-              <div className="grid gap-4 py-6">
+              <div className="grid gap-4 py-6 px-2">
                 {siteConfig.navItems.map((item) => (
                   <Button
                     key={item.href}
@@ -93,7 +98,8 @@ export default function Nav() {
                   asChild
                 >
                   <Link href="/">
-                    Login / Sign Up
+                    <Video className="text-primary-foreground w-5 h-5 mt-0.5" />
+                    Book a Lesson
                   </Link>
                 </Button>
               </div>
