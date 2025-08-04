@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Video } from "lucide-react";
 
 export default function Home() {
   return (
@@ -19,27 +20,26 @@ export default function Home() {
             {/* Badge */}
             <Badge
               variant="secondary"
-              className="px-4 py-2 text-sm font-medium bg-blue-500/10 text-blue-500 border-blue-500/20"
+              className="px-4 py-2 text-sm font-medium bg-secondary/50 text-secondary-foreground border-secondary/30 rounded-full"
             >
-              ✨ New in 2025
+              ✨ Professional Tutor
             </Badge>
 
             {/* Main heading */}
-            <h1 className="text-5xl lg:text-7xl font-playfair-display font-semibold tracking-tight leading-tight">
+            <h1 className="text-5xl lg:text-7xl elegant-heading font-bold tracking-tight leading-tight text-foreground">
               Adam Tolnay
             </h1>
 
             {/* Subtitle */}
-            <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed max-w-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit harum perferendis quam eaque. Repellendus cumque placeat cupiditate quasi tenetur!
+            <p className="text-xl lg:text-2xl elegant-text text-muted-foreground leading-relaxed max-w-lg">
+              Elegant web solutions crafted with precision and care. Bringing your digital vision to life through modern design and cutting-edge technology.
             </p>
 
             {/* CTA Button */}
             <Button
-              size="lg"
-              className="bg-blue-500 hover:bg-blue-600 text-primary px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground w-fit px-10 py-4 text-xl elegant-text font-semibold shadow-2xl hover:shadow-3xl transition-all duration-300 h-auto"
             >
-              Get Started Today
+              Book a Lesson Today
               <svg
                 className="ml-2 w-5 h-5"
                 fill="none"

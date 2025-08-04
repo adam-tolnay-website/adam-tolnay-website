@@ -10,11 +10,11 @@ export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur bg-background/25 px-4" role="navigation">
+    <header className="sticky top-0 z-50 backdrop-blur bg-background/25 border-b px-4" role="navigation">
       <div className="flex max-w-6xl mx-auto h-24 items-center justify-between">
         <div className="flex items-center gap-6">
           <Link className="flex items-center text-lg" href="/">
-            <p className="text-xl font-semibold">{siteConfig.name}</p>
+            <p className="text-xl elegant-heading font-bold text-foreground">{siteConfig.name}</p>
           </Link>
           <div className="hidden lg:flex">
             {siteConfig.navItems.map((item) => (
@@ -23,7 +23,7 @@ export default function Nav() {
                   variant="ghost"
                   asChild
                 >
-                  <Link href={item.href} className="text-lg font-normal">
+                  <Link href={item.href} className="text-lg elegant-text font-normal">
                     {item.label}
                   </Link>
                 </Button>
@@ -44,17 +44,18 @@ export default function Nav() {
                 aria-label="Email"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="elegant-text"
               >
                 Contact Me
-                <Mail className="text-default-500 w-5 h-5" />
+                <Mail className="text-muted-foreground w-5 h-5" />
               </Link> 
             </Button>
           </div>
 
           <div className="hidden lg:flex">
-            <Button color="primary" className="text-sm font-normal" asChild>
+            <Button variant="default" className="text-sm elegant-text font-normal bg-primary hover:bg-primary/90" asChild>
               <Link href="/">
-                <Video className="text-default-500 w-5 h-5 mt-0.5" />
+                <Video className="text-primary-foreground w-5 h-5 mt-0.5" />
                 Book a Lesson
               </Link>
             </Button>
@@ -63,7 +64,7 @@ export default function Nav() {
           <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
             <SheetTrigger asChild>
               <Button className="lg:hidden" size="icon" variant="outline">
-                <Menu className="text-default-500 h-6 w-6" />
+                <Menu className="text-muted-foreground h-6 w-6" />
                 <span className="sr-only">Toggle navigation menu</span>
               </Button>
             </SheetTrigger>
@@ -76,7 +77,7 @@ export default function Nav() {
                   <Button
                     key={item.href}
                     variant="ghost"
-                    className="justify-start"
+                    className="justify-start elegant-text"
                     onClick={() => setIsMenuOpen(false)}
                     asChild
                   >
@@ -88,7 +89,7 @@ export default function Nav() {
                 <Button
                   onClick={() => setIsMenuOpen(false)}
                   variant="default"
-                  className="mt-4"
+                  className="mt-4 bg-primary hover:bg-primary/90 elegant-text"
                   asChild
                 >
                   <Link href="/">
