@@ -1,20 +1,21 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Raleway, JetBrains_Mono } from "next/font/google"; // Changed to Raleway
+import { Playfair_Display, Raleway, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/next"
 import { siteConfig } from "@/lib/config/site";
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"], // Multiple weights
+  weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 const raleway = Raleway({
   variable: "--font-raleway",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"], // Multiple weights
+  weight: ["300", "400", "500", "600", "700", "800"],
 });
 
 const jetBrainsMono = JetBrains_Mono({
@@ -44,6 +45,7 @@ export default function RootLayout({
           </div>
           <Footer />
         </div>
+        <Analytics />
       </body>
     </html>
   );
