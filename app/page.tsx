@@ -7,6 +7,7 @@ import Bio from "@/components/Bio";
 import CallToAction from "@/components/CallToAction";
 import { smoothScrollToId } from "@/lib/scroll-utils";
 import { siteConfig } from "@/lib/config/site";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -53,6 +54,10 @@ export default function Home() {
 
       <div id="subjects">
         <SubjectsSection isVisible={isVisible} />
+      </div>
+
+      <div id="faq">
+        <FAQ />
       </div>
 
       <CallToAction />
