@@ -37,7 +37,7 @@ export default function Home() {
       <div id="home">
         <HeroSection 
           title="Adam Tolnay"
-          subtitle="Transform your programming journey with personalized tutoring and expert guidance. From fundamentals to advanced concepts, I'll help you achieve your coding goals."
+          subtitle="lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           ctaText="Book a Lesson Today"
           onCtaClick={handleBookingClick}
         />
