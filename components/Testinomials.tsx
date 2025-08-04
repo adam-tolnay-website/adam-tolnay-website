@@ -170,7 +170,7 @@ const TestimonialsSection = () => {
             ⭐ Student Success Stories
           </Badge> */}
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
-            Top Quality Classes
+            Loved by Students And Parents
           </h2>
           {/* <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Real feedback from students who&apos;ve achieved their programming goals

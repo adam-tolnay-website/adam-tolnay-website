@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import HeroSection from "@/components/Hero";
 import SubjectsSection from "@/components/Subjects";
 import TestimonialsSection from "@/components/Testinomials";
+import Bio from "@/components/Bio";
+import CallToAction from "@/components/CallToAction";
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -36,15 +38,12 @@ export default function Home() {
         onCtaClick={handleBookingClick}
       />
 
-      {/* Testimonials Section */}
       <TestimonialsSection />
 
-      {/* Subjects Section */}
       <SubjectsSection isVisible={isVisible} />
 
-      {/* Future sections can be added here */}
-      {/* <ContactSection /> */}
-      {/* <AboutSection /> */}
+      <Bio />
+      <CallToAction />
       {/* <PricingSection /> */}
     </div>
   );
