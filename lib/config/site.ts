@@ -1,48 +1,30 @@
+import { title } from "process";
+
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "Adam Tolnay",
+  title: "Adam Tolnay - Private Coaching",
   description:
-    "The open source resource hub for hackathoners. Free. Community Driven.",
+    "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   navItems: [
     {
       label: "Testimonials",
       href: "#testimonials",
     },
     {
-      label: "Subjects",
-      href: "#subjects",
-    },
-    {
       label: "Who am I",
       href: "#bio",
     },
-  ],
-  navMenuItems: [
     {
-      label: "Home",
-      href: "/",
-    },
-    {
-      label: "About",
-      href: "/about",
-    },
-    {
-      label: "Explore",
-      href: "/explore",
-    },
-    {
-      label: "Hackathon!",
-      href: "https://hackathon.hackpost.guide",
-    },
-    {
-      label: "Login / Sign Up",
-      href: "/enter",
+      label: "Subjects",
+      href: "#subjects",
     },
   ],
   links: {
-    email: "mailto:adamtolnay@pm.me",
-    book: "https://calendly.com/adamtolnay/30min",
-    zoom: "https://calendly.com/adamtolnay/zoom",
+    email: "mailto:adamtolnay@gmail.com",
+    book: "https://calendly.com/adamtolnay/30min", // replace with booking link
+    zoom: "https://calendly.com/adamtolnay/zoom", // replace with Zoom link
+    linkedin: "https://www.linkedin.com/in/adamtolnay/", // replace with LinkedIn profile
   },
 };

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Rocket } from "lucide-react";
 
 export default function CallToAction() {
   return (
@@ -15,6 +16,7 @@ export default function CallToAction() {
           className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-xl font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
         >
           Book A Free Trial Lesson
+          <Rocket className="ml-2 w-6 h-6" />
         </Button>
       </div>
     </section>

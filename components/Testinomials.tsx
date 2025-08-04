@@ -167,7 +167,7 @@ const TestimonialsSection = () => {
 
   return (
     <section
-      className={`py-20 overflow-hidden transition-all duration-700 ${
+      className={`pb-20 overflow-hidden transition-all duration-700 ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
       }`}
       aria-label="Student testimonials"
@@ -181,9 +181,9 @@ const TestimonialsSection = () => {
           >
             ⭐ Student Success Stories
           </Badge> */}
-          <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
+          {/* <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
             Loved by Students And Parents
-          </h2>
+          </h2> */}
           {/* <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Real feedback from students who&apos;ve achieved their programming goals
           </p> */}
