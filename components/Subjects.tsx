@@ -81,7 +81,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
       }`}
       aria-label="Programming subjects and teaching methods"
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4">

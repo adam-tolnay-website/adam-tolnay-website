@@ -172,18 +172,18 @@ const TestimonialsSection = () => {
       }`}
       aria-label="Student testimonials"
     >
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto px-4">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center my-8">
           {/* <Badge
             variant="secondary"
             className="px-4 py-2 text-sm font-medium bg-secondary/50 text-secondary-foreground border-secondary/30 rounded-full mb-4"
           >
             ⭐ Student Success Stories
           </Badge> */}
-          {/* <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
+          <h2 className="text-2xl lg:text-3xl font-extrabold text-foreground">
             Loved by Students And Parents
-          </h2> */}
+          </h2>
           {/* <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Real feedback from students who&apos;ve achieved their programming goals
           </p> */}

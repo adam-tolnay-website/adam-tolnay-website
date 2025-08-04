@@ -5,6 +5,8 @@ import SubjectsSection from "@/components/Subjects";
 import TestimonialsSection from "@/components/Testinomials";
 import Bio from "@/components/Bio";
 import CallToAction from "@/components/CallToAction";
+import { smoothScrollToId } from "@/lib/scroll-utils";
+import { siteConfig } from "@/lib/config/site";
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -20,23 +22,26 @@ export default function Home() {
     // Could scroll to contact form, open modal, redirect to booking page, etc.
     console.log("Booking clicked - implement your booking logic");
     
-    // Example: scroll to contact section
-    // const contactSection = document.getElementById('contact');
-    // contactSection?.scrollIntoView({ behavior: 'smooth' });
+    // Example: scroll to contact section using smooth scroll utility
+    // smoothScrollToId('contact');
+    
+    // Example: scroll to bio section as demo
+    // smoothScrollToId('bio');
     
     // Example: open external booking link
-    // window.open('https://calendly.com/your-booking-link', '_blank');
+    window.open(siteConfig.links.book, '_blank');
   };
 
   return (
     <div className="min-h-screen px-4">
-      {/* Hero Section */}
-      <HeroSection 
-        title="Adam Tolnay"
-        subtitle="Transform your programming journey with personalized tutoring and expert guidance. From fundamentals to advanced concepts, I'll help you achieve your coding goals."
-        ctaText="Book a Lesson Today"
-        onCtaClick={handleBookingClick}
-      />
+      <div id="home">
+        <HeroSection 
+          title="Adam Tolnay"
+          subtitle="Transform your programming journey with personalized tutoring and expert guidance. From fundamentals to advanced concepts, I'll help you achieve your coding goals."
+          ctaText="Book a Lesson Today"
+          onCtaClick={handleBookingClick}
+        />
+      </div>
 
       <div id="testimonials">
         <TestimonialsSection />

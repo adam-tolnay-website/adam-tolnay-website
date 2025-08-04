@@ -7,7 +7,7 @@ export default function CallToAction() {
       <div className="max-w-5xl mx-auto text-center space-y-12">
         {/* Heading */}
         <h2 className="text-4xl lg:text-6xl font-bold text-foreground elegant-heading">
-          Interested in learning something new?
+          Your Journey to Mastery Starts Here
         </h2>
 
         {/* Button */}

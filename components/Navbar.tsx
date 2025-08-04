@@ -11,6 +11,7 @@ import Link from "next/link";
 import { siteConfig } from "@/lib/config/site";
 import { useState } from "react";
 import { Video, Mail, Menu } from "lucide-react";
+import { handleSmoothScroll } from "@/lib/scroll-utils";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,7 +23,7 @@ export default function Nav() {
     >
       <div className="flex max-w-6xl mx-auto h-24 items-center justify-between">
         <div className="flex items-center gap-6">
-          <Link className="flex items-center text-lg" href="/">
+          <Link className="flex items-center text-lg" href="#home">
             <p className="text-xl elegant-heading font-bold text-foreground">
               {siteConfig.name}
             </p>
@@ -35,13 +36,16 @@ export default function Nav() {
                   asChild
                   className="hover:bg-transparent"
                 >
-                  <Link
+                  <a
                     href={item.href}
+                    onClick={(e) => {
+                      handleSmoothScroll(e, item.href);
+                    }}
                     className="text-lg elegant-text font-normal transition-all duration-300 hover:text-primary"
                     style={{ textShadow: "0 0 8px rgba(255, 255, 255, 0.8)" }}
                   >
                     {item.label}
-                  </Link>
+                  </a>
                 </Button>
               </div>
             ))}
@@ -94,10 +98,17 @@ export default function Nav() {
                     key={item.href}
                     variant="ghost"
                     className="justify-start elegant-text"
-                    onClick={() => setIsMenuOpen(false)}
                     asChild
                   >
-                    <Link href={item.href}>{item.label}</Link>
+                    <a
+                      href={item.href}
+                      onClick={(e) => {
+                        handleSmoothScroll(e, item.href);
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      {item.label}
+                    </a>
                   </Button>
                 ))}
                 <Button
