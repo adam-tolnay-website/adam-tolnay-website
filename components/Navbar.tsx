@@ -74,8 +74,8 @@ export default function Nav() {
               className="text-sm elegant-text font-normal bg-primary hover:bg-primary/90"
               asChild
             >
-              <Link href="/">
-                <Video className="text-primary-foreground w-5 h-5 mt-0.5" />
+              <Link href={siteConfig.links.book} target="_blank">
+                <Video className="text-primary-foreground w-5 h-5" />
                 Book a Lesson
               </Link>
             </Button>

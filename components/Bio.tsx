@@ -80,7 +80,7 @@ export default function BioSection() {
               <div className="absolute -top-6 -right-6 w-full h-full bg-primary/10 rounded-2xl -z-10"></div>
               {/* Main image */}
               <Image
-                src="https://res.cloudinary.com/dqdasxxho/image/upload/v1754333956/Haloway_hero_image_1_gzcqwm.png"
+                src="https://images.unsplash.com/photo-1621356986575-05811227a42e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Adam Tolnay - Professional Tutor"
                 width={600}
                 height={500}

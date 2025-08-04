@@ -18,29 +18,14 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
 
-  const handleBookingClick = () => {
-    // Implement your booking logic here
-    // Could scroll to contact form, open modal, redirect to booking page, etc.
-    console.log("Booking clicked - implement your booking logic");
-    
-    // Example: scroll to contact section using smooth scroll utility
-    // smoothScrollToId('contact');
-    
-    // Example: scroll to bio section as demo
-    // smoothScrollToId('bio');
-    
-    // Example: open external booking link
-    window.open(siteConfig.links.book, '_blank');
-  };
 
   return (
     <div className="min-h-screen px-4">
       <div id="home">
         <HeroSection 
           title="Adam Tolnay"
-          subtitle="lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           ctaText="Book a Lesson Today"
-          onCtaClick={handleBookingClick}
         />
       </div>
 

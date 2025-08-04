@@ -20,6 +20,10 @@ export const siteConfig = {
       label: "Subjects",
       href: "#subjects",
     },
+    {
+      label: "FAQ",
+      href: "#faq",
+    },
   ],
   links: {
     email: "mailto:adamtolnay@gmail.com",
