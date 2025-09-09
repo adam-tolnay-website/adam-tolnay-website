@@ -172,7 +172,7 @@ and phrases and can then use as elements to build their own narrative.`,
     },
     {
       title: "Reading the Epics",
-      description: `Iliad and Odyssey`,
+      description: `Iliad and Odyssey [todo: expand on this]`,
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
   ];
@@ -198,9 +198,10 @@ and phrases and can then use as elements to build their own narrative.`,
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className=" mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8 text-center ">
-              Areas of <span className="underline decoration-primary/95 decoration-6">Competence/Journeys:</span>
+            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4 text-center ">
+              Areas of <span className="underline decoration-primary/0 decoration-6">Competence/Journeys:</span>
             </h2>
+            <div className="w-120 h-1.5 bg-primary rounded-full mx-auto mb-10"></div>
             <p className="text-xl text-muted-foreground max-w-6xl mx-auto text-left ">
               Each of the subjects below is but a placeholder for a personalized
               one-on-one journey. Each is an area of academic preparation that I

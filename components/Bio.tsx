@@ -93,7 +93,7 @@ export default function BioSection() {
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                   <span className="text-sm font-medium text-foreground">
-                    Accepting New Students
+                    Accepting New Students (Insert picture of Adam with students)
                   </span>
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function BioSection() {
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                   <span className="text-sm font-medium text-foreground">
-                    Insert picture of Adam with students
+                    Insert picture of Adam working with [X organization]
                   </span>
                 </div>
               </div>
@@ -202,7 +202,7 @@ export default function BioSection() {
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                   <span className="text-sm font-medium text-foreground">
-                    Insert picture of Adam with students
+                    Insert picture of Adam working with [X organization]
                   </span>
                 </div>
               </div>
