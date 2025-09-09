@@ -119,7 +119,7 @@ export default function Nav() {
                 >
                   <Link href="/">
                     <Video className="text-primary-foreground w-5 h-5 mt-0.5" />
-                    Book a Lesson
+                    Book a Trial Lesson
                   </Link>
                 </Button>
               </div>

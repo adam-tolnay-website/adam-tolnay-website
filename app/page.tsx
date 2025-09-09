@@ -24,8 +24,8 @@ export default function Home() {
       <div id="home">
         <HeroSection 
           title="Adam Tolnay"
-          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          ctaText="Book a Lesson Today"
+          subtitle="I am a Harvard educated mentor committed to passing on the content and spirit of the personalized advising and guidance that I received during the entire arc of my own academic, intellectual and life journey."
+          ctaText="Book a Trial Lesson Today"
         />
       </div>
 

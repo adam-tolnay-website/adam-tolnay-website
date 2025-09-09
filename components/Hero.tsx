@@ -43,7 +43,7 @@ const HeroSection = ({
                                 : "opacity-0 translate-y-4"
                         }`}
                     >
-                        ✨ Professional Tutor
+                        ✨ Ivy League Mentor
                     </Badge>
 
                     {/* Main heading */}
@@ -94,7 +94,7 @@ const HeroSection = ({
                     <div className="relative">
                         <Image
                             src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="Professional tutor Adam Tolnay"
+                            alt="Ivy League Mentor Adam Tolnay"
                             width={800}
                             height={700}
                             className="w-full h-[700px] object-cover rounded-2xl shadow-2xl"

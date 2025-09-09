@@ -13,11 +13,11 @@ export const siteConfig = {
       href: "#testimonials",
     },
     {
-      label: "Who am I",
+      label: "About Me",
       href: "#bio",
     },
     {
-      label: "Subjects",
+      label: "Courses and Journeys",
       href: "#subjects",
     },
     {

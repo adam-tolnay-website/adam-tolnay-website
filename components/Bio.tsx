@@ -82,7 +82,7 @@ export default function BioSection() {
               {/* Main image */}
               <Image
                 src="https://images.unsplash.com/photo-1619852182277-79aa23f82c8e?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Adam Tolnay - Professional Tutor"
+                alt="Adam Tolnay - Ivy League Mentor"
                 width={600}
                 height={500}
                 className="w-full h-[500px] object-cover rounded-2xl shadow-2xl"
@@ -116,7 +116,7 @@ export default function BioSection() {
               {/* Main image */}
               <Image
                 src="https://images.unsplash.com/photo-1619852182277-79aa23f82c8e?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Adam Tolnay - Professional Tutor"
+                alt="Adam Tolnay - Ivy League Mentor"
                 width={600}
                 height={500}
                 className="w-full h-[500px] object-cover rounded-2xl shadow-2xl"
@@ -191,7 +191,7 @@ export default function BioSection() {
               {/* Main image */}
               <Image
                 src="https://images.unsplash.com/photo-1619852182277-79aa23f82c8e?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Adam Tolnay - Professional Tutor"
+                alt="Adam Tolnay - Ivy League Mentor"
                 width={600}
                 height={500}
                 className="w-full h-[500px] object-cover rounded-2xl shadow-2xl"
