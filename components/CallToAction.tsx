@@ -3,7 +3,7 @@ import { Rocket } from "lucide-react";
 
 export default function CallToAction() {
   return (
-    <section className="py-32 px-4">
+    <section className="pt-32 pb-60 px-4">
       <div className="max-w-5xl mx-auto text-center space-y-12">
         {/* Heading */}
         <h2 className="text-4xl lg:text-6xl font-bold text-foreground elegant-heading">

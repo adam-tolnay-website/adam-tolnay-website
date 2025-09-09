@@ -309,21 +309,20 @@ Build the English skills that support success in all academic areas and beyond.`
               </DialogHeader>
               
               <div className="space-y-6">
-                {/* Modal Image */}
+                {/* Modal Description */}
+                <DialogDescription className="text-base leading-relaxed whitespace-pre-line">
+                  {selectedSubject.description}
+                </DialogDescription>
+                                {/* Modal Image */}
                 <div className="relative h-64 w-full overflow-hidden rounded-lg">
                   <Image
                     src={selectedSubject.image}
                     alt={`${selectedSubject.title} detailed view`}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                     sizes="(max-width: 768px) 100vw, 80vw"
                   />
                 </div>
-
-                {/* Modal Description */}
-                <DialogDescription className="text-base leading-relaxed whitespace-pre-line">
-                  {selectedSubject.description}
-                </DialogDescription>
               </div>
             </>
           )}
