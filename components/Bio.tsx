@@ -52,7 +52,7 @@ export default function BioSection() {
             </div>
 
             {/* Stats or Highlights */}
-            {/* <div className="grid grid-cols-2 gap-6 pt-6">
+            <div className="grid grid-cols-3 gap-6 pt-6">
               <div className="text-center lg:text-left">
                 <div className="text-3xl font-bold text-primary">500+</div>
                 <div className="text-sm text-muted-foreground uppercase tracking-wider">
@@ -60,12 +60,18 @@ export default function BioSection() {
                 </div>
               </div>
               <div className="text-center lg:text-left">
-                <div className="text-3xl font-bold text-primary">8+</div>
+                <div className="text-3xl font-bold text-primary">80+</div>
+                <div className="text-sm text-muted-foreground uppercase tracking-wider">
+                  Students Individually Mentored
+                </div>
+              </div>
+              <div className="text-center lg:text-left">
+                <div className="text-3xl font-bold text-primary">15+</div>
                 <div className="text-sm text-muted-foreground uppercase tracking-wider">
                   Years Experience
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
 
           {/* Image */}
@@ -145,34 +151,11 @@ export default function BioSection() {
             {/* Bio Text */}
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p className="text-lg">
-                In 1992 I launched my first educational non-profit, Learning
-                Enterprises, an organization that mobilized Harvard undergraduates to
-                spend summers teaching English in villages in Eastern Europe while
-                host families. I ran Learning Enterprises for 11 years before passing
-                it on to colleagues who replicated our model and expended it 14 other
-                countries including China, Thailand, Mexico, Ethiopia and Mauritius.
-                Later I launched similar stand-alone NGOs that brought teachers to
-                rural India and to the islands of Papua New Guinea. The decade and a
-                half spent running people-to-people global educational organizations
-                distilled in me my life’s mission: to connect students to teachers
-                who are about them beyond the four walls of the classroom and the
-                structures of the formal school system.
+                In 1992 I launched my first educational non-profit, Learning Enterprises, an organization that mobilized Harvard undergraduates to spend summers teaching English in villages in Eastern Europe while living with host families. I ran Learning Enterprises for 11 years before passing it on to colleagues who replicated our model and extended it to 14 other countries including China, Thailand, Mexico, Ethiopia and Mauritius. Later I launched similar stand-alone NGOs that brought teachers to rural India and to the islands of Papua New Guinea. The decade and a half spent running people-to-people global educational organizations distilled in me my life’s mission: to connect students to teachers who care about them beyond the four walls of the classroom and for longer than a semester or a school year. 
               </p>
 
               <p className="text-lg">
-                Over the course of the past 15 years I lived and worked in Asia, serving
-                as the Director of Counseling for Byron Education, a division of
-                Dulwich College International in Shanghai, as the Head of the
-                American Degree Transfer Program at Sunway University in Kuala
-                Lumpur, and as the Ivy League Mentor for Special A Education in
-                Beijing. I had the great good fortune to be able to work on-on-one
-                and some of the brightest and most motivated students on the planet
-                and serve as guides to them as they reached for the stars. My
-                students have been admitted to, and many have by now have completed,
-                courses of study at many of the most prestigious institutions of
-                higher learning on the planet. By working with amazing students
-                one-on-one I came to see that many high school students lack a mentor
-                who is committed to the development of their own unique intellects.
+                Over the course of the past 15 years I lived and worked in Asia, serving as the Director of Counseling for Byron Education, a division of Dulwich College International in Shanghai, as the Head of the American Degree Transfer Program at Sunway University in Kuala Lumpur, and as the Ivy League Mentor for Special A Education in Beijing. I had the great good fortune to be able to work one-on-one with some of the brightest and most motivated students on the planet and to serve as a guide to them as they reached for the stars and landed at Stanford, MIT, Dartmouth, Cornell, Georgetown. In working with amazing students one-on-one I came to see that most high school students lack a mentor who is committed to the development of their own unique intellects and souls.
               </p>
             </div>
 
@@ -212,11 +195,7 @@ export default function BioSection() {
         <div className="text-center mt-12">
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p className="text-lg">
-              Now, at the spritely age of 55, I seek to pay back my esteemed mentors by
-              offering my experience to high school students who seek not only to
-              gain admission to some of the most prestigious universities around
-              the world but who also aspire to think, understand, feel, articulate,
-              discern and express.
+              Now, at the spritely age of 55, I seek to pay back my esteemed mentors by offering my experience to high school students who seek not only to gain admission to some of the most prestigious universities around the world but who also aspire to think, understand, feel, articulate, discern and express.
             </p>
           </div>
         </div>

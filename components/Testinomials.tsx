@@ -9,7 +9,6 @@ interface Testimonial {
   id: number;
   name: string;
   role: string;
-  company: string;
   content: string;
   rating: number;
   avatar: string;
@@ -27,53 +26,30 @@ const TestimonialsSection = () => {
   const testimonials1: Testimonial[] = [
     {
       id: 1,
-      name: "Sarah Chen",
-      role: "Software Engineer",
-      company: "Google",
+      name: "Johnny C.",
+      role: "Student at UCLA",
       content:
-        "Adam's teaching style is incredible. He made complex algorithms feel simple and intuitive. Landed my dream job at Google thanks to his guidance!",
+        "To be honest, I would not have done so much without Adam’s help. As a great advisor, he is professionally and personally devoted; he listens to the students and really cares about what students are interested in. In other words, he sees the students’ interests as his own and he brings out his students’ potentials. During high school, I had a lot of chances to meet up with Adam just to talk about life, school and everything. He can be a good friend and also a wonderful guide, especially when I was choosing the schools that could fit me. More importantly, he can offer and teach students how to both plan for the long term and work on immediate goals. I have to say that the things I learned from Adam will benefit me for life-long.",
       rating: 5,
-      avatar: "SC",
+      avatar: "JC",
     },
     {
       id: 2,
-      name: "Marcus Johnson",
-      role: "Full Stack Developer",
-      company: "Meta",
+      name: "Eva Y. and Wayne P.",
+      role: "Parents from Shanghai",
       content:
-        "The one-on-one sessions were game-changing. Adam adapted to my learning pace perfectly and helped me transition from complete beginner to confident developer.",
+        "Our daughter Kim surprised us when she asked if she could teach in Africa. We were worried and accompanied her. She taught so well on Rodrigues Island, Mauritius and we were very proud of her. Adam then worked with us and helped Kim discover the best liberal arts university in Canada. As parents who have witnessed first hand the work and the care Adam put into both the summer program and into helping us select universities we would like to express our support for Adam and his work.",
       rating: 5,
       avatar: "MJ",
     },
     {
       id: 3,
-      name: "Emily Rodriguez",
-      role: "Frontend Developer",
-      company: "Airbnb",
+      name: "Ameer J.",
+      role: "MIT Sloan School",
       content:
-        "Best investment I've made in my career. Adam's practical approach and real-world examples made learning React and JavaScript so much easier.",
+        "Adam was not only a tutor but also a coach and mentor to me when I was studying for the GMAT. He helped me to score well on the GMAT when I was floundering with standardized testing. Adam is not only an exceptional tutor but ever since I've known him he has been in the space of enriching academic lives of students through mentoring. ",
       rating: 5,
       avatar: "ER",
-    },
-    {
-      id: 4,
-      name: "David Kim",
-      role: "Backend Developer",
-      company: "Netflix",
-      content:
-        "Adam helped me master Python and system design. His structured approach and patience made all the difference in my technical interviews.",
-      rating: 5,
-      avatar: "DK",
-    },
-    {
-      id: 5,
-      name: "Lisa Wang",
-      role: "Data Scientist",
-      company: "Tesla",
-      content:
-        "Exceptional tutor! Adam's deep knowledge and ability to explain complex concepts simply helped me pivot into data science successfully.",
-      rating: 5,
-      avatar: "LW",
     },
   ];
 
@@ -83,7 +59,6 @@ const TestimonialsSection = () => {
       id: 6,
       name: "James Thompson",
       role: "DevOps Engineer",
-      company: "Amazon",
       content:
         "Adam's expertise in cloud technologies and deployment strategies was exactly what I needed. Now I'm confidently managing AWS infrastructure.",
       rating: 5,
@@ -93,7 +68,6 @@ const TestimonialsSection = () => {
       id: 7,
       name: "Ana Martinez",
       role: "Mobile Developer",
-      company: "Spotify",
       content:
         "Learning React Native with Adam was fantastic. His hands-on projects and debugging sessions prepared me perfectly for mobile development.",
       rating: 5,
@@ -103,7 +77,6 @@ const TestimonialsSection = () => {
       id: 8,
       name: "Robert Chen",
       role: "Machine Learning Engineer",
-      company: "OpenAI",
       content:
         "Adam's guidance on ML algorithms and TensorFlow was invaluable. His teaching helped me understand both theory and practical implementation.",
       rating: 5,
@@ -113,7 +86,6 @@ const TestimonialsSection = () => {
       id: 9,
       name: "Sophie Laurent",
       role: "Product Engineer",
-      company: "Stripe",
       content:
         "The certification prep sessions were thorough and well-structured. Adam's mock interviews gave me the confidence to ace my technical rounds.",
       rating: 5,
@@ -123,7 +95,6 @@ const TestimonialsSection = () => {
       id: 10,
       name: "Michael Park",
       role: "Security Engineer",
-      company: "Cloudflare",
       content:
         "Adam's cybersecurity and secure coding practices training was top-notch. His real-world experience shows in every lesson.",
       rating: 5,
@@ -147,7 +118,7 @@ const TestimonialsSection = () => {
               {testimonial.name}
             </h4>
             <p className="text-sm text-muted-foreground">
-              {testimonial.role} at {testimonial.company}
+              {testimonial.role}
             </p>
           </div>
         </div>
