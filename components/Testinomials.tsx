@@ -181,7 +181,7 @@ const TestimonialsSection = () => {
           </div>
 
           {/* Second Row - Moving Left */}
-          <div>
+          {/* <div>
             <div
               className="flex testimonial-scroll-left hover:pause-animation"
               style={{
@@ -196,7 +196,7 @@ const TestimonialsSection = () => {
                 />
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Gradient Overlays for smooth edges - now properly positioned */}
           <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-background via-background/80 to-transparent pointer-events-none z-10" />

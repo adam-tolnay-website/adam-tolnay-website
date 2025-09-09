@@ -17,28 +17,24 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "How are the tutoring sessions conducted?",
-      answer: "Response 1",
+      question: "How are your mentoring sessions conducted?",
+      answer: "I work on Zoom and adapt to the student's schedule. Most sessions are weekly and last one hour, but I ready to meet as frequently as necessary to meet deadlines. In the heat of the college application season a student and I met every few hours during the course of a long weekend. The student revised his personal statement 22 times and was admitted to the Wharton School of Business at the University of Pennsylvania.",
     },
     {
-      question: "What's your teaching approach?",
-      answer: "Response 2",
-    },
-    {
-      question: "How long are the sessions and how often should we meet?",
-      answer: "Response 3",
+      question: "What's Your Teaching Approach?",
+      answer: "With the exception of my Reading the Greek and Roman Epics course, I work one-on-one with all my students. This means that at the outset of each journey the student and I discuss and collectively decide on the goals, subject matter, depth, pacing, and deliverables. My goal is to make sure that over the course of our intellectual journey each student learns how to think more deeply, write more effectively and grows in wisdom.",
     },
     {
       question: "How much do lessons cost?",
-      answer: "Response 4",
+      answer: "My courses and journeys are fully customized based on the student’s specific needs and goals. I am happy to discuss rates during an in-depth consultation and offer a select number of sliding scale spots each year.",
     },
     {
       question: "How do I schedule and pay for sessions?",
-      answer: "Response 5",
+      answer: "The student and I schedule our sessions one month or even one semester ahead. I ask for the student or their parent to pre-pay the first ten sessions and am happy to refund any unused time.",
     },
     {
       question: "What if I need to cancel or reschedule?",
-      answer: "Response 6",
+      answer: "I am happy to cancel or re-schedule sessions free of charge if I am given more than 24 hours notice.",
     }
   ];
 
@@ -50,9 +46,9 @@ export default function FAQ() {
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4 elegant-heading">
             Frequently Asked Questions
           </h2>
-          <p className="text-xl text-muted-foreground">
+          {/* <p className="text-xl text-muted-foreground">
             Everything you need to know about my tutoring services
-          </p>
+          </p> */}
         </div>
 
         {/* FAQ Items */}

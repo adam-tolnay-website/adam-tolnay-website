@@ -55,16 +55,14 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
         "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "University Application",
+      title: "University Application Counseling",
       description:
-        `My specialization is Ivy League university applications. I
-have helped students gain admission to: Princeton, Brown, Cornell, Dartmouth, MIT, the University of Pennsylvania, Georgetown, the
-University of California at Berkeley, Cambridge University and many other fine institutions.`,
+        `Over the course of the past fifteen years I have helped students gain admission to: Princeton, Stanford, Brown, Cornell, Dartmouth, MIT, the University of Pennsylvania, Georgetown, the University of California at Berkeley, the University of Texas at Austin, Oxford and many other fine institutions. `,
       image:
         "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "Writing Non-Fiction",
+      title: "Non-Fiction Writing",
       description:
         `I see the writing process as effort-filled yet also hopefully rewarding
 of the management of five distinct steps: thinking, distilling what
@@ -88,7 +86,7 @@ rewriting.`,
         "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "Reading the Epics",
+      title: "Reading the Greek and Roman Epics",
       description:
         "Personalized lessons focusing on reading, writing, and communication skills.",
       image:
@@ -100,79 +98,55 @@ rewriting.`,
   const detailedSubjects: DetailedSubject[] = [
     {
       title: "Test Preparation",
-      description: `I work with students to prepare students for the following exams: SAT, ACT, GRE, GMAT, AP English Language and Composition, AP English
-      Literature and Composition, AP World History, AP US History, AP Philosophy, AP Psychology…
+      description: `Each year I assist students to achieve maximum scores on the following exams: SSAT, SAT, ACT, GRE, GMAT, AP English Language and Composition, AP English Literature and Composition, AP World History: Modern, AP European History, AP United States History, AP Comparative Government and Politics, UP United States Government and Politics, AP Human Geography.
 
-      My approach to the standardized tests is simple: I work with each and every student to see that on the multiple choice part of any exam the answer is there in black and white. We then work not to relearn all of high school mathematics or master all the rules of English grammar
-      but to have the student gain mastery over their own native intelligence to be able to pick the right answer. On the essay portions of these exams the students and delve deep into the grading rubric and together we reverse-engineer a process that is natural for
-      the student and upgrade that process to achieve a maximum score.`,
+        My approach to standardized tests is to work with each and every student one-on-one. Each student is able to access his or her native intelligence and find their own way to answer each question. In contrast to other approaches, my students do not relearn all of high school mathematics or master abstruse rules of English grammar, but rather gain control of their own minds, face each question as a puzzle and apply the most comfortable and effective mental patterns to each question—at speed.`,
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "University Application",
-      description: `I work with students and parents to ensure that each and every student is accepted to a number of colleges and universities where they can
-achieve their professional and intellectual goals while thriving as people. My specialization is Ivy League university applications. I
-have helped students gain admission to: Princeton, Brown, Cornell, Dartmouth, MIT, the University of Pennsylvania, Georgetown, the
-University of California at Berkeley, Cambridge University and many other fine institutions.
+      title: "University Application Counseling",
+      description: `Over the course of the past fifteen years I have helped students gain admission to: Princeton, Stanford, Brown, Cornell, Dartmouth, MIT, the University of Pennsylvania, Georgetown, the University of California at Berkeley, the University of Texas at Austin, Oxford and many other fine institutions. 
 
-My work involves supporting every aspect of the college admissions application process from advising on course selection to selecting
-between the various universities that the student was admitted to. I believe that the greatest value added is the crafting of truthful,
-heartfelt and memorable personal statements.
+My work involves supporting every aspect of the college admissions application process from advising high school freshmen on course selection to helping sophomores and juniors start their own nonprofit organizations to guiding seniors’ minds and hearts as they express their inner selves in truthful, heartfelt and memorable personal statements.
 
-As a transfer student myself, from Dartmouth College to Harvard College in 1990 I also feel it is my duty to assist students who are willing
-to embark on the long and torturous process of transferring between undergraduate institutions. Over the course of the past few years I
-am proud to have assisted students to transfer to Stanford University and the University of North Carolina at Chapel Hill.`,
+As a transfer student myself, I feel a special obligation to assist students who are driven to embark on the long and torturous process of transferring between undergraduate institutions. Over the course of the past few years I am proud to have assisted students to transfer to Stanford University and the University of North Carolina at Chapel Hill.`,
       image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "Writing Non-Fiction",
+      title: "Non-Fiction Writing",
       description: `
-At the outset of any writing endeavor the student and I understand the goal. My students have written: essays writing competitions such as
-the John Locke Essay Contest and the New York Times writing contest, poems and fiction for literary contests, essays for summer school
-applications, opinion and editorial pieces, poems, fiction and non-fiction. The largest piece of prose one of my students has
-written is 90 page work on the Battles of the Napoleonic Wars.
+I see the writing process as the management of five distinct steps: thinking, distillation of what one wishes to say, structuring, putting words in paper, and rewriting.
 
-After the goal is decided on we sketch out a plan for thinking, reading, distilling, structuring and  writing and revision and follow the
-natural rhythm of the writing process or the adhere to the requirements set by deadlines.
+Writing goals vary. At the outset of any writing endeavor a student and I spend some time to clarify and understand the goal, the parameters, and the question as asked. My students have written: essays for writing competitions such as the John Locke Essay Contest and the New York Times writing contest, opinion and editorial pieces, essays for summer school applications, speeches and presentations that were debuted in front of wide audiences, and works of various lengths and genres submitted as parts of curricular projects.
 
-The essence of the process I adhere to is active reading, active thinking, writing as flow of volume, revision/ rewriting and editing.
-My goal is for the student to acquire facility with each of the processes, most especially to prize thinking and to not dispart the
-hugely important process of rewriting.`,
+I approach writing as an active process: active thinking, active research, active distillation, active flow of words, and active revision. Through regular meetings in which we discuss the text, ideas and processes, the student acquires the skills to complete any writing task on their own.`,
       image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
     {
       title: "Reading and Writing History",
-      description: `Fate has been kind to me. Each semester or two I have been introduced to a student who has enjoyed reading, discussing and writing history. Over
-the years my students and I have read and discussed: ancient history, especially the history of the Roman Empire with a focus on Augustus
-Cesar, the Tetrarchy and Diocletian, Revolutionary War, the Constitutional Convention, the Age of Jackson, the history of the
-Transcontinental Railroad, the Industrialization of Japan, the Japanese Colonial Empire, the WWI on the Western and Eastern Front,
-Stalinism and the Building and Destruction of the Berlin Wall.
+      description: `Every semester or two I have had the great good fortune to have been introduced to a student who has a penchant for reading, discussing and writing history. Over the years my students and I have read and discussed: the history of the Roman Empire with a focus on the life of Augustus Cesar, the Revolutionary War and the Constitutional Convention, the Age of Jackson, the history of the Transcontinental Railroad, the Industrialization of Japan and the creation of the Japanese Colonial Empire, World War I on the Western and Eastern Front, Stalinism, and the building and destruction of the Berlin Wall.
 
-Each course is unique and we tailored the course around the student’s interest. Oftentimes we read college-level books on the period in
-question and discussed it weekly. On occasion a student wrote a presentation about a given topic. My most advanced student, a 16 year
-old, is completing his 90+ page book on the Battles of the Napoleonic Wars,`,
+Each course is bespoke and tailored specifically to the student’s interest. We pick the books together and set the pace and goal of the course together, in dialogue. Most often we read college-level books and meet weekly to review chapters as long as 50 pages. Some of my students also choose to write papers and books on history. My most advanced student, a 15 year old, is at present completing his masterful 100+ page book on the Battles of the Napoleonic Wars.`,
       image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
     {
       title: "Reading and Writing Fiction",
-      description: `In my career I have met two essential tropes of fiction writers: 1. those who have within them a wellspring of irrepressible imagination
-and have a need to bring these stories/dreamsd, inner voices and mysteries to life and 2. Those who love reading and appreciate the
-fine craft of words.
+      description: `In my career I have learned that young readers and writers of fiction fall into two essential categories. 
 
-Example 1: 
-I have had the great pleasure of working with each of the two types of writers. For the first, I see my contribution as being that of a
-first reader, gentle guide, even gentler critic, and champion. These students and I have a rhythm: to meet regularly and review the
-student’s work where I seek to guide the overflowing imagination through critical sluices into lakes where the best of the writing
-settles into a form that can then be readied for publication.
+The first are endowed with a wellspring of irrepressible imagination and have a visceral need to bring these stories/dreams/inner voices/inspired musing to life. With such writers my contribution is to encourage them to let their words bubble forth, to serve as their first reader, to gently guide and sometimes gently critique, but above all else to witness and champion their creative endeavors. With such writers we develop a rhythm: we meet regularly, review the text, and together we guide the overflowing imaginative text through critical sluices into lakes of beauty where the best of the writing settles into forms that can then be readied for publication.
 
-Example 2:
-With the second type of writer I see my goal as to expose the student to works of literature that a student can read, dissect into structure
-and phrases and can then use as elements to build their own narrative.`,
+The second type of young writer had a soul that is inspired by a love of literature, psychology and appreciation of the craft of stitching words together into a tapestry of meaning. With such young people my goal is to expose the student to works of literature that we read together, dissect them for content, structure, phrasing and melody and thereby ignite the student’s senses to will themselves to embark on their own narrative.
+`,
       image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "Reading the Epics",
-      description: `Iliad and Odyssey [todo: expand on this]`,
+      title: "Reading the Greek and Roman Epics",
+      description: `Two years ago, two of my students, a high school freshman in Hong Kong and a college freshman at the University of California at Berkeley, and I embarked on a special reading course. Week after week we met to discuss Homer’s Iliad, which we read with our attention centered not on plot or character development but on phrasing and meaning. 
+
+The course was so much fun and so successful that we continued to read Homer’s Iliad. Upon completion of the Iliad I hope to embark on close reading of Virgil’s Aeneid. 
+
+I am looking for students who would like to open their minds, hearts and souls and engage with timeless epic poetry in the company of some of the very brightest young people on the planet.
+`,
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
   ];
