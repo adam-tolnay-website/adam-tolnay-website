@@ -45,42 +45,50 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
 
   const cards: SubjectCard[] = [
     {
-      title: "Science Fiction & Fantasy Writing",
+      title: "Test Preparation",
       description:
-        "Master the core concepts of storytelling, world-building, and character development.",
-      image:
+        `I work with students to prepare students for the following exams: SAT,
+        ACT, GRE, GMAT, AP English Language and Composition, AP English
+        Literature and Composition, AP World History, AP US History, AP
+        Philosophy, AP Psychology…`, 
+    image:
         "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "Greek Classics",
+      title: "University Application",
       description:
-        "Explore the rich literature and philosophy of ancient Greece.",
+        `My specialization is Ivy League university applications. I
+have helped students gain admission to: Princeton, Brown, Cornell, Dartmouth, MIT, the University of Pennsylvania, Georgetown, the
+University of California at Berkeley, Cambridge University and many other fine institutions.`,
       image:
         "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "College Application Prep",
+      title: "Writing Non-Fiction",
       description:
-        "Comprehensive support for college applications, including essay writing and interview preparation.",
-      image:
+        `I see the writing process as effort-filled yet also hopefully rewarding
+of the management of five distinct steps: thinking, distilling what
+one wishes to say, structuring, putting words in paper, and
+rewriting.`, 
+    image:
         "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "AP Lang & AP Lit",
+      title: "Reading and Writing History",
       description:
         "Structured curriculum focused on achieving your specific literary analysis and composition goals.",
       image:
         "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "Writing Competitions",
+      title: "Reading and Writing Fiction",
       description:
         "Comprehensive preparation for writing competitions at various levels.",
       image:
         "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=250&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "General English Tutoring",
+      title: "Reading the Epics",
       description:
         "Personalized lessons focusing on reading, writing, and communication skills.",
       image:
@@ -91,139 +99,80 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
   // Detailed descriptions for modal content
   const detailedSubjects: DetailedSubject[] = [
     {
-      title: "Science Fiction & Fantasy Writing",
-      description: `Dive deep into the imaginative worlds of science fiction and fantasy writing. This comprehensive course covers:
+      title: "Test Preparation",
+      description: `I work with students to prepare students for the following exams: SAT, ACT, GRE, GMAT, AP English Language and Composition, AP English
+      Literature and Composition, AP World History, AP US History, AP Philosophy, AP Psychology…
 
-• **World-Building Mastery**: Learn to create immersive, believable fictional worlds with consistent rules, cultures, and histories. From designing magic systems to crafting futuristic technologies, we'll explore how to build universes that captivate readers.
-
-• **Character Development**: Master the art of creating compelling protagonists and antagonists. We'll work on character arcs, motivations, and dialogue that brings your fictional beings to life.
-
-• **Plot Structure & Pacing**: Understand the unique storytelling challenges of speculative fiction. Learn how to balance exposition with action, manage complex plots, and maintain reader engagement across multiple storylines.
-
-• **Genre Conventions**: Explore the rich traditions and evolving trends in sci-fi and fantasy. From classic tropes to modern subversions, understand what readers expect and how to surprise them.
-
-• **Publishing Pathways**: Navigate the modern publishing landscape, from traditional publishers to self-publishing platforms, with specific focus on the sci-fi and fantasy markets.
-
-Perfect for aspiring authors ready to craft the next great speculative fiction masterpiece.`,
+      My approach to the standardized tests is simple: I work with each and every student to see that on the multiple choice part of any exam the answer is there in black and white. We then work not to relearn all of high school mathematics or master all the rules of English grammar
+      but to have the student gain mastery over their own native intelligence to be able to pick the right answer. On the essay portions of these exams the students and delve deep into the grading rubric and together we reverse-engineer a process that is natural for
+      the student and upgrade that process to achieve a maximum score.`,
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "Greek Classics",
-      description: `Journey through the foundational texts of Western literature and philosophy with our comprehensive Greek Classics program:
+      title: "University Application",
+      description: `I work with students and parents to ensure that each and every student is accepted to a number of colleges and universities where they can
+achieve their professional and intellectual goals while thriving as people. My specialization is Ivy League university applications. I
+have helped students gain admission to: Princeton, Brown, Cornell, Dartmouth, MIT, the University of Pennsylvania, Georgetown, the
+University of California at Berkeley, Cambridge University and many other fine institutions.
 
-• **Epic Poetry Mastery**: Analyze Homer's Iliad and Odyssey, exploring themes of heroism, fate, and the human condition. Learn to appreciate the oral tradition and epic conventions that shaped literature for millennia.
+My work involves supporting every aspect of the college admissions application process from advising on course selection to selecting
+between the various universities that the student was admitted to. I believe that the greatest value added is the crafting of truthful,
+heartfelt and memorable personal statements.
 
-• **Tragic Drama**: Study the works of Aeschylus, Sophocles, and Euripides. Understand the structure of Greek tragedy, the concept of catharsis, and how these ancient works still resonate with modern audiences.
-
-• **Philosophical Foundations**: Explore Plato's dialogues and Aristotle's works, understanding how these thinkers laid the groundwork for Western philosophy, ethics, and political theory.
-
-• **Historical Context**: Gain deep insights into ancient Greek society, politics, and culture to better understand the literature within its historical framework.
-
-• **Literary Analysis Skills**: Develop advanced analytical skills through close reading, textual analysis, and comparative studies that will enhance your understanding of all literature.
-
-• **Modern Relevance**: Connect ancient themes and ideas to contemporary issues, demonstrating the timeless relevance of these classical works.
-
-This course provides essential knowledge for any serious student of literature, philosophy, or history.`,
+As a transfer student myself, from Dartmouth College to Harvard College in 1990 I also feel it is my duty to assist students who are willing
+to embark on the long and torturous process of transferring between undergraduate institutions. Over the course of the past few years I
+am proud to have assisted students to transfer to Stanford University and the University of North Carolina at Chapel Hill.`,
       image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "College Application Prep",
-      description: `Navigate the complex college application process with confidence through our comprehensive preparation program:
+      title: "Writing Non-Fiction",
+      description: `
+At the outset of any writing endeavor the student and I understand the goal. My students have written: essays writing competitions such as
+the John Locke Essay Contest and the New York Times writing contest, poems and fiction for literary contests, essays for summer school
+applications, opinion and editorial pieces, poems, fiction and non-fiction. The largest piece of prose one of my students has
+written is 90 page work on the Battles of the Napoleonic Wars.
 
-• **Personal Statement Mastery**: Craft compelling personal essays that showcase your unique voice, experiences, and aspirations. Learn storytelling techniques that make admissions officers remember you.
+After the goal is decided on we sketch out a plan for thinking, reading, distilling, structuring and  writing and revision and follow the
+natural rhythm of the writing process or the adhere to the requirements set by deadlines.
 
-• **Supplemental Essay Excellence**: Master the art of tailoring responses to specific school prompts. We'll work on "Why this school?" essays, diversity statements, and creative responses that demonstrate fit and interest.
-
-• **Application Strategy**: Develop a strategic approach to college selection, understanding reach, match, and safety schools. Learn to research programs effectively and make informed decisions.
-
-• **Interview Preparation**: Build confidence through mock interviews, learning to articulate your goals, handle difficult questions, and make strong impressions on admissions representatives.
-
-• **Scholarship Applications**: Identify and apply for merit-based and need-based scholarships. Learn to write compelling scholarship essays and present strong applications.
-
-• **Timeline Management**: Master the complex timelines of early decision, early action, and regular admission cycles. Stay organized with deadlines, requirements, and follow-up tasks.
-
-• **Letters of Recommendation**: Learn how to cultivate relationships with teachers and mentors who can write strong recommendation letters on your behalf.
-
-Transform the stressful application process into a strategic advantage for your college journey.`,
+The essence of the process I adhere to is active reading, active thinking, writing as flow of volume, revision/ rewriting and editing.
+My goal is for the student to acquire facility with each of the processes, most especially to prize thinking and to not dispart the
+hugely important process of rewriting.`,
       image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "AP Lang & AP Lit",
-      description: `Excel in Advanced Placement English courses with our targeted preparation program designed for both AP Language and Composition and AP Literature and Composition:
+      title: "Reading and Writing History",
+      description: `Fate has been kind to me. Each semester or two I have been introduced to a student who has enjoyed reading, discussing and writing history. Over
+the years my students and I have read and discussed: ancient history, especially the history of the Roman Empire with a focus on Augustus
+Cesar, the Tetrarchy and Diocletian, Revolutionary War, the Constitutional Convention, the Age of Jackson, the history of the
+Transcontinental Railroad, the Industrialization of Japan, the Japanese Colonial Empire, the WWI on the Western and Eastern Front,
+Stalinism and the Building and Destruction of the Berlin Wall.
 
-**AP Language & Composition:**
-• **Rhetorical Analysis Mastery**: Learn to identify and analyze rhetorical strategies, appeals, and devices in complex texts. Develop skills to write sophisticated analysis essays.
-
-• **Argument Construction**: Master the art of crafting compelling arguments with strong evidence, logical reasoning, and effective counterargument acknowledgment.
-
-• **Synthesis Skills**: Practice combining multiple sources to support original arguments, a crucial skill for the synthesis essay portion of the exam.
-
-**AP Literature & Composition:**
-• **Literary Analysis Excellence**: Develop advanced skills in analyzing poetry, prose, and drama. Learn to identify literary devices, themes, and their effects on meaning.
-
-• **Close Reading Techniques**: Master the art of careful textual analysis, understanding how authors use language, structure, and style to create meaning.
-
-• **Comparative Analysis**: Learn to compare and contrast works across different time periods, genres, and cultural contexts.
-
-**Exam Preparation:**
-• **Timed Writing Practice**: Regular practice with AP-style prompts under timed conditions to build speed and confidence.
-
-• **Multiple Choice Strategies**: Develop effective approaches to the challenging multiple-choice sections of both exams.
-
-Achieve your target score and gain college credit through our proven AP preparation methods.`,
+Each course is unique and we tailored the course around the student’s interest. Oftentimes we read college-level books on the period in
+question and discussed it weekly. On occasion a student wrote a presentation about a given topic. My most advanced student, a 16 year
+old, is completing his 90+ page book on the Battles of the Napoleonic Wars,`,
       image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "Writing Competitions",
-      description: `Maximize your success in writing competitions with our specialized preparation program covering local, national, and international contests:
+      title: "Reading and Writing Fiction",
+      description: `In my career I have met two essential tropes of fiction writers: 1. those who have within them a wellspring of irrepressible imagination
+and have a need to bring these stories/dreamsd, inner voices and mysteries to life and 2. Those who love reading and appreciate the
+fine craft of words.
 
-• **Competition Strategy**: Learn to identify the right competitions for your skill level and interests. Understand different competition formats, from poetry slams to essay contests to creative writing challenges.
+Example 1: 
+I have had the great pleasure of working with each of the two types of writers. For the first, I see my contribution as being that of a
+first reader, gentle guide, even gentler critic, and champion. These students and I have a rhythm: to meet regularly and review the
+student’s work where I seek to guide the overflowing imagination through critical sluices into lakes where the best of the writing
+settles into a form that can then be readied for publication.
 
-• **Genre Specialization**: Receive targeted instruction in various competition categories:
-  - Poetry competitions (traditional and slam)
-  - Short story contests
-  - Essay competitions
-  - Flash fiction challenges
-  - Scriptwriting contests
-
-• **Prompt Analysis**: Master the art of interpreting competition prompts and requirements. Learn to identify key elements and craft responses that directly address evaluation criteria.
-
-• **Time Management**: Develop strategies for working under pressure, whether in timed competitions or managing longer-term contest deadlines.
-
-• **Revision Techniques**: Learn advanced editing and revision strategies that can transform good writing into award-winning pieces.
-
-• **Submission Excellence**: Understand the technical aspects of competition entry - formatting, word counts, submission guidelines, and professional presentation.
-
-• **Portfolio Development**: Build a strong portfolio of competition-ready pieces across multiple genres and styles.
-
-• **Judge Psychology**: Gain insights into what competition judges look for and how to make your work stand out in crowded fields.
-
-Transform your writing talents into recognition and opportunities through strategic competition participation.`,
+Example 2:
+With the second type of writer I see my goal as to expose the student to works of literature that a student can read, dissect into structure
+and phrases and can then use as elements to build their own narrative.`,
       image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
     {
-      title: "General English Tutoring",
-      description: `Build strong foundational skills in English language arts with our comprehensive tutoring program tailored to individual needs:
-
-• **Reading Comprehension**: Develop advanced reading strategies for various text types - literary fiction, non-fiction, poetry, and informational texts. Learn to identify main ideas, make inferences, and analyze author's purpose.
-
-• **Writing Fundamentals**: Master the writing process from brainstorming to final draft. Work on paragraph structure, thesis development, evidence integration, and revision techniques.
-
-• **Grammar & Mechanics**: Strengthen understanding of grammar rules, punctuation, and sentence structure. Learn to self-edit and produce error-free writing.
-
-• **Vocabulary Development**: Expand your vocabulary through contextual learning, etymology study, and strategic word choice in writing.
-
-• **Speaking & Presentation Skills**: Build confidence in oral communication through structured practice in class discussions, presentations, and formal speaking opportunities.
-
-• **Critical Thinking**: Develop analytical skills that enhance both reading comprehension and writing quality. Learn to evaluate arguments, identify bias, and form independent opinions.
-
-• **Study Skills**: Master effective note-taking, test preparation strategies, and time management skills that support academic success across all subjects.
-
-• **Personalized Learning**: Receive instruction adapted to your learning style, pace, and specific goals, whether you're catching up, keeping up, or getting ahead.
-
-• **Assessment Preparation**: Prepare for standardized tests, school exams, and other assessments with targeted practice and strategy instruction.
-
-Build the English skills that support success in all academic areas and beyond.`,
+      title: "Reading the Epics",
+      description: `Iliad and Odyssey`,
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
   ];
@@ -248,13 +197,31 @@ Build the English skills that support success in all academic areas and beyond.`
       >
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
-          <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4">
-              Subjects I Teach
+          <div className=" mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-8 text-center ">
+              Areas of <span className="underline decoration-primary/95 decoration-6">Competence/Journeys:</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
-              expedita?
+            <p className="text-xl text-muted-foreground max-w-6xl mx-auto text-left ">
+              Each of the subjects below is but a placeholder for a personalized
+              one-on-one journey. Each is an area of academic preparation that I
+              have guided students to success.
+              <br />
+              <br />
+
+              Together they are the sum total  of the bespoke and many co-designed with each
+              student, are aimed at the student reaching his or her academic goal.
+              Yet, as part of the process of personalized mentoring, each student
+              also learns how to think, understand, feel,
+              articulate, discern and express.
+              <br />
+              <br />
+
+              The first question I ask my students is: <b>“What would you like to
+              study?”</b> The student and I then build a program around his or her
+              interests and together we learn to think, understand, feel and
+              express thoughts and feelings in essays, opinion and pieces, college
+              admissions essays, scholarship applications, poems, speeches,
+              discussions, fiction, poems, podcasts or other media.
             </p>
           </div>
 
@@ -303,7 +270,7 @@ Build the English skills that support success in all academic areas and beyond.`
           {selectedSubject && (
             <>
               <DialogHeader>
-                <DialogTitle className="text-2xl font-bold mb-4">
+                <DialogTitle className="text-2xl font-bold mb-4 text-foreground">
                   {selectedSubject.title}
                 </DialogTitle>
               </DialogHeader>
