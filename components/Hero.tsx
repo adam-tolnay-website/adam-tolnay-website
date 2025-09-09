@@ -15,7 +15,7 @@ interface HeroSectionProps {
 const HeroSection = ({
     title = "Adam Tolnay",
     subtitle = "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    ctaText = "Book a Lesson Today",
+    ctaText = "Book a Trial Lesson",
 }: HeroSectionProps) => {
     const [isVisible, setIsVisible] = useState(false);
 

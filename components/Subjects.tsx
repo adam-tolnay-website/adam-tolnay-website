@@ -199,30 +199,11 @@ and phrases and can then use as elements to build their own narrative.`,
           {/* Section Header */}
           <div className=" mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4 text-center ">
-              Areas of <span className="underline decoration-primary/0 decoration-6">Competence/Journeys:</span>
+              Courses and Journeys I Lead
             </h2>
             <div className="w-120 h-1.5 bg-primary rounded-full mx-auto mb-10"></div>
-            <p className="text-xl text-muted-foreground max-w-6xl mx-auto text-left ">
-              Each of the subjects below is but a placeholder for a personalized
-              one-on-one journey. Each is an area of academic preparation that I
-              have guided students to success.
-              <br />
-              <br />
-
-              Together they are the sum total  of the bespoke and many co-designed with each
-              student, are aimed at the student reaching his or her academic goal.
-              Yet, as part of the process of personalized mentoring, each student
-              also learns how to think, understand, feel,
-              articulate, discern and express.
-              <br />
-              <br />
-
-              The first question I ask my students is: <b>“What would you like to
-              study?”</b> The student and I then build a program around his or her
-              interests and together we learn to think, understand, feel and
-              express thoughts and feelings in essays, opinion and pieces, college
-              admissions essays, scholarship applications, poems, speeches,
-              discussions, fiction, poems, podcasts or other media.
+            <p className="text-xl text-muted-foreground max-w-6xl mx-auto text-center ">
+             Each of the headings below represents a course and a one-on-one intellectual journey. Each is an area of academic preparation where I have guided students to broaden their comprehension, deepen their insights, and articulate their understanding with richness and effectiveness.
             </p>
           </div>
 
@@ -267,7 +248,7 @@ and phrases and can then use as elements to build their own narrative.`,
 
       {/* Modal */}
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-        <DialogContent className="max-w-6xl w-[95vw] max-h-[90vh] overflow-y-auto">
+        <DialogContent className="max-w-6xl w-[95vw] max-h-[90vh] overflow-y-auto rounded-xl">
           {selectedSubject && (
             <>
               <DialogHeader>
@@ -282,7 +263,7 @@ and phrases and can then use as elements to build their own narrative.`,
                   {selectedSubject.description}
                 </DialogDescription>
                                 {/* Modal Image */}
-                <div className="relative h-64 w-full overflow-hidden rounded-lg">
+                <div className="relative h-64 w-full overflow-hidden rounded-xl mt-16 mb-24">
                   <Image
                     src={selectedSubject.image}
                     alt={`${selectedSubject.title} detailed view`}
