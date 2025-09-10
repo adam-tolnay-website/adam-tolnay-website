@@ -87,11 +87,11 @@ export default function BioSection() {
               <div className="absolute -top-6 -right-6 w-full h-full bg-primary/10 rounded-2xl -z-10"></div>
               {/* Main image */}
               <Image
-                src="https://images.unsplash.com/photo-1619852182277-79aa23f82c8e?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="/images/3.jpg"
                 alt="Adam Tolnay - Ivy League Mentor"
                 width={600}
-                height={500}
-                className="w-full h-[500px] object-cover rounded-2xl shadow-2xl"
+                height={700}
+                className="w-full h-[700px] object-cover rounded-2xl shadow-2xl"
               />
 
               {/* Floating badge */}
@@ -99,7 +99,7 @@ export default function BioSection() {
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                   <span className="text-sm font-medium text-foreground">
-                    Accepting New Students (Insert picture of Adam with students)
+                    Accepting New Students
                   </span>
                 </div>
               </div>

@@ -1,13 +1,11 @@
-import { title } from "process";
-
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "Adam Tolnay",
-  title: "Adam Tolnay - Private Coaching",
+  title: "Adam Tolnay - Ivy League Mentor",
   description:
-    "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  navItems: [
+    "I am a Harvard educated mentor committed to passing on the content and spirit of the personalized advising and guidance that I received during the entire arc of my own academic, intellectual and life journey.",
+  navItems: [ 
     {
       label: "Testimonials",
       href: "#testimonials",
@@ -29,6 +27,6 @@ export const siteConfig = {
     email: "mailto:adamtolnay@gmail.com",
     book: "https://calendly.com/", // replace with booking link
     zoom: "https://calendly.com/", // replace with Zoom link
-    linkedin: "https://www.linkedin.com/in/adam-tolnay-072b491a9/", // replace with LinkedIn profile
+    linkedin: "https://www.linkedin.com/in/adam-tolnay-072b491a9/",
   },
 };
