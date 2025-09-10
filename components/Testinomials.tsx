@@ -1,6 +1,5 @@
 "use client";
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Star } from "lucide-react";
 import { useState, useEffect } from "react";
 
@@ -202,16 +201,6 @@ const TestimonialsSection = () => {
           <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-background via-background/80 to-transparent pointer-events-none z-10" />
           <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-background via-background/80 to-transparent pointer-events-none z-10" />
         </div>
-
-        {/* Call to Action */}
-        {/* <div className="text-center mt-16">
-          <p className="text-lg text-muted-foreground mb-6">
-            Ready to join these success stories?
-          </p>
-          <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
-            Start Your Journey Today
-          </button>
-        </div> */}
       </div>
 
       {/* CSS Animations */}
