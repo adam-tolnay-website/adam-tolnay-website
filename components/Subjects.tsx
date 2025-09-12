@@ -236,7 +236,7 @@ I am looking for students who would like to open their minds, hearts and souls a
                 <DialogDescription className="text-base leading-relaxed whitespace-pre-line">
                   {selectedSubject.description}
                 </DialogDescription>
-                                {/* Modal Image */}
+              {/* Modal Image */} 
                 <div className="relative h-64 w-full overflow-hidden rounded-xl mt-16 mb-24">
                   <Image
                     src={selectedSubject.image}
