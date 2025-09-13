@@ -122,7 +122,7 @@ export default function BioSection() {
 
       {/* Biography Modal */}
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-        <DialogContent className="max-w-4xl max-h-[85vh] overflow-y-auto">
+        <DialogContent className="max-w-6xl max-h-[85vh] overflow-y-auto">
           <DialogHeader>
             <DialogTitle className="text-2xl font-bold">Adam Tolnay - Full Biography</DialogTitle>
           </DialogHeader>
@@ -149,6 +149,10 @@ export default function BioSection() {
                   Chiho Sawada, who each took a genuine interest in my personal
                   intellectual development.
                 </p>
+
+                <p>
+                  In 1992 I launched my first educational non-profit, Learning Enterprises, an organization that mobilized Harvard undergraduates to spend summers teaching English in villages in Eastern Europe while living with host families. I ran Learning Enterprises for 11 years before passing it on to colleagues who replicated our model and extended it to 14 other countries including China, Thailand, Mexico, Ethiopia and Mauritius. Later I launched similar stand-alone NGOs that brought teachers to rural India and to the islands of Papua New Guinea. The decade and a half spent running people-to-people global educational organizations distilled in me my life&apos;s mission: to connect students to teachers who care about them beyond the four walls of the classroom and for longer than a semester or a school year.
+                </p>
               </div>
               
               <div className="relative h-[300px] lg:h-full min-h-[300px]">
@@ -164,31 +168,13 @@ export default function BioSection() {
             {/* Second Section */}
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                In 1992 I launched my first educational non-profit, Learning Enterprises, an organization that mobilized Harvard undergraduates to spend summers teaching English in villages in Eastern Europe while living with host families. I ran Learning Enterprises for 11 years before passing it on to colleagues who replicated our model and extended it to 14 other countries including China, Thailand, Mexico, Ethiopia and Mauritius. Later I launched similar stand-alone NGOs that brought teachers to rural India and to the islands of Papua New Guinea. The decade and a half spent running people-to-people global educational organizations distilled in me my life&apos;s mission: to connect students to teachers who care about them beyond the four walls of the classroom and for longer than a semester or a school year.
+                Over the course of the past 15 years I lived and worked in Asia, serving as the Director of Counseling for Byron Education, a division of Dulwich College International in Shanghai, as the Head of the American Degree Transfer Program at Sunway University in Kuala Lumpur, and as the Ivy League Mentor for Special A Education in Beijing. I had the great good fortune to be able to work one-on-one with some of the brightest and most motivated students on the planet and to serve as a guide to them as they reached for the stars and landed at Stanford, MIT, Dartmouth, Cornell, Georgetown. In working with amazing students one-on-one I came to see that most high school students lack a mentor who is committed to the development of their own unique intellects and souls.
               </p>
             </div>
 
-            {/* Third Section with Image */}
-            <div className="grid lg:grid-cols-2 gap-8 items-start">
-              <div className="relative h-[300px] order-2 lg:order-1">
-                <Image
-                  src="https://images.unsplash.com/photo-1619852182277-79aa23f82c8e?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt="Education work"
-                  fill
-                  className="object-cover rounded-lg"
-                />
-              </div>
-              
-              <div className="space-y-4 text-muted-foreground leading-relaxed order-1 lg:order-2">
-                <p>
-                  Over the course of the past 15 years I lived and worked in Asia, serving as the Director of Counseling for Byron Education, a division of Dulwich College International in Shanghai, as the Head of the American Degree Transfer Program at Sunway University in Kuala Lumpur, and as the Ivy League Mentor for Special A Education in Beijing. I had the great good fortune to be able to work one-on-one with some of the brightest and most motivated students on the planet and to serve as a guide to them as they reached for the stars and landed at Stanford, MIT, Dartmouth, Cornell, Georgetown. In working with amazing students one-on-one I came to see that most high school students lack a mentor who is committed to the development of their own unique intellects and souls.
-                </p>
-              </div>
-            </div>
-
             {/* Final Section */}
-            <div className="text-muted-foreground leading-relaxed border-t pt-6">
-              <p className="text-lg">
+            <div className="text-muted-foreground leading-relaxed">
+              <p className="text-md text-center">
                 Now, at the spritely age of 55, I seek to pay back my esteemed mentors by offering my experience to high school students who seek not only to gain admission to some of the most prestigious universities around the world but who also aspire to think, understand, feel, articulate, discern and express.
               </p>
             </div>
