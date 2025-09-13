@@ -42,15 +42,15 @@ export default function BioSection() {
 
               <p className="text-lg">
                 Alongside many of my esteemed peers, I spent the first half of my life
-                aspiring to and completing courses of study at some of the world&apos;s
-                most selective institutions: <b>Harvard College A.B. Magna Cum Laude,
-                </b> the <b>London School of Economics M.Sc., Harvard University A.M.,
-                Georgetown University PhD. ABD, Stanford University Reuters Digital
-                Visions Fellowship</b>. At each and every step of my formal education I
-                was blessed to have been mentored by persons such as the late Prof.
-                Ezra Vogel, Prof. Dominic Lieven, Prof. Michael Puett, and Prof.
-                Chiho Sawada, who each took a genuine interest in my personal
-                intellectual development.
+                  aspiring to and completing courses of study at some of the world&apos;s
+                  most selective institutions: <b>Harvard College A.B. Magna Cum Laude
+                  </b>, <b>the London School of Economics M.Sc.</b>, <b>Harvard University A.M.</b>, <b>
+                  Georgetown University PhD. ABD</b>, <b>Stanford University PhD, Stanford University Reuters Digital
+                  Visions Fellowship</b>. At each and every step of my formal education I
+                  was blessed to have been mentored by persons such as the late Prof.
+                  Ezra Vogel, Prof. Dominic Lieven, Prof. Michael Puett, and Prof.
+                  Chiho Sawada, who each took a genuine interest in my personal
+                  intellectual development.
               </p>
             </div>
 
@@ -140,9 +140,9 @@ export default function BioSection() {
                 <p>
                   Alongside many of my esteemed peers, I spent the first half of my life
                   aspiring to and completing courses of study at some of the world&apos;s
-                  most selective institutions: <b>Harvard College A.B. Magna Cum Laude,
-                  </b> the <b>London School of Economics M.Sc., Harvard University A.M.,
-                  Georgetown University PhD. ABD, Stanford University Reuters Digital
+                  most selective institutions: <b>Harvard College A.B. Magna Cum Laude
+                  </b>, <b>the London School of Economics M.Sc.</b>, <b>Harvard University A.M.</b>, <b>
+                  Georgetown University PhD. ABD</b>, <b>Stanford University PhD, Stanford University Reuters Digital
                   Visions Fellowship</b>. At each and every step of my formal education I
                   was blessed to have been mentored by persons such as the late Prof.
                   Ezra Vogel, Prof. Dominic Lieven, Prof. Michael Puett, and Prof.
