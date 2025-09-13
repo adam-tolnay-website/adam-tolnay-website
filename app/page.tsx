@@ -8,6 +8,7 @@ import CallToAction from "@/components/CallToAction";
 import { smoothScrollToId } from "@/lib/scroll-utils";
 import { siteConfig } from "@/lib/config/site";
 import FAQ from "@/components/FAQ";
+import Degrees from "@/components/Degrees";
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,8 +30,16 @@ export default function Home() {
         />
       </div>
 
+      <div id="degrees" className="block md:hidden">
+        <Degrees />
+      </div>
+
       <div id="testimonials">
         <TestimonialsSection />
+      </div>
+
+      <div id="degrees" className="hidden md:block">
+        <Degrees />
       </div>
 
       <div id="bio">

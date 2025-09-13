@@ -186,7 +186,7 @@ const TestimonialsSection = () => {
       }`}
       aria-label="Student testimonials"
     >
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-6xl mt-24 md:mt-4 mx-auto px-4">
         {/* Section Header */}
         <div className="text-center my-8">
           <h2 className="text-2xl lg:text-3xl font-extrabold text-foreground">
