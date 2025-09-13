@@ -112,7 +112,7 @@ My work involves supporting every aspect of the college admissions application p
 As a transfer student myself, I feel a special obligation to assist students who are driven to embark on the long and torturous process of transferring between undergraduate institutions. Over the course of the past few years I am proud to have assisted students to transfer to Stanford University and the University of North Carolina at Chapel Hill.`,
       image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop&crop=entropy&auto=format",
     },
-    {
+    { 
       title: "Non-Fiction Writing",
       description: `
 I see the writing process as the management of five distinct steps: thinking, distillation of what one wishes to say, structuring, putting words in paper, and rewriting.

@@ -1,6 +1,7 @@
 "use client";
 import { Card, CardContent } from "@/components/ui/card";
-import { Star } from "lucide-react";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Star, MoreHorizontal } from "lucide-react";
 import { useState, useEffect } from "react";
 
 // Define testimonial type
@@ -15,6 +16,7 @@ interface Testimonial {
 
 const TestimonialsSection = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [openDialogId, setOpenDialogId] = useState<number | null>(null);
 
   useEffect(() => {
     const timer = setTimeout(() => setIsVisible(true), 100);
@@ -28,7 +30,7 @@ const TestimonialsSection = () => {
       name: "Johnny C.",
       role: "Student at UCLA",
       content:
-        "To be honest, I would not have done so much without Adam’s help. As a great advisor, he is professionally and personally devoted; he listens to the students and really cares about what students are interested in. In other words, he sees the students’ interests as his own and he brings out his students’ potentials. During high school, I had a lot of chances to meet up with Adam just to talk about life, school and everything. He can be a good friend and also a wonderful guide, especially when I was choosing the schools that could fit me. More importantly, he can offer and teach students how to both plan for the long term and work on immediate goals. I have to say that the things I learned from Adam will benefit me for life-long.",
+        "To be honest, I would not have done so much without Adam's help. As a great advisor, he is professionally and personally devoted; he listens to the students and really cares about what students are interested in. In other words, he sees the students' interests as his own and he brings out his students' potentials. During high school, I had a lot of chances to meet up with Adam just to talk about life, school and everything. He can be a good friend and also a wonderful guide, especially when I was choosing the schools that could fit me. More importantly, he can offer and teach students how to both plan for the long term and work on immediate goals. I have to say that the things I learned from Adam will benefit me for life-long.",
       rating: 5,
       avatar: "JC",
     },
@@ -103,37 +105,79 @@ const TestimonialsSection = () => {
 
   // Create duplicated arrays for seamless infinite scroll
   const extendedTestimonials1 = [...testimonials1, ...testimonials1];
-  const extendedTestimonials2 = [...testimonials2, ...testimonials2];
+  // const extendedTestimonials2 = [...testimonials2, ...testimonials2];
 
-  const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => (
-    <Card className="flex-shrink-0 w-80 mx-2 bg-card/80 backdrop-blur-sm border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-lg">
-      <CardContent className="py-2 px-6">
-        <div className="flex items-center mb-4">
-          <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold mr-4">
-            {testimonial.avatar}
+  // Helper function to truncate text to approximately 4 lines
+  const truncateContent = (content: string, maxLength: number = 200) => {
+    if (content.length <= maxLength) return content;
+    const truncated = content.substring(0, maxLength);
+    const lastSpace = truncated.lastIndexOf(' ');
+    return truncated.substring(0, lastSpace) + '...';
+  };
+
+  const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => {
+    const truncatedContent = truncateContent(testimonial.content);
+    const needsExpansion = testimonial.content.length > truncatedContent.length - 3; // -3 for the "..."
+
+    const handleCardClick = (e: React.MouseEvent) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (needsExpansion) {
+        setOpenDialogId(testimonial.id);
+      }
+    };
+
+    const handleMoreClick = (e: React.MouseEvent) => {
+      e.preventDefault();
+      e.stopPropagation();
+      setOpenDialogId(testimonial.id);
+    };
+
+    return (
+      <Card 
+        className={`flex-shrink-0 w-80 mx-2 bg-card/80 backdrop-blur-sm border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-lg ${needsExpansion ? 'cursor-pointer' : ''}`}
+        onClick={handleCardClick}
+      >
+        <CardContent className="py-2 px-6">
+          <div className="flex items-center mb-4">
+            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold mr-4">
+              {testimonial.avatar}
+            </div>
+            <div className="flex-1">
+              <h4 className="font-semibold text-foreground">
+                {testimonial.name}
+              </h4>
+              <p className="text-sm text-muted-foreground">
+                {testimonial.role}
+              </p>
+            </div>
           </div>
-          <div className="flex-1">
-            <h4 className="font-semibold text-foreground">
-              {testimonial.name}
-            </h4>
-            <p className="text-sm text-muted-foreground">
-              {testimonial.role}
+
+          <div className="flex mb-3">
+            {[...Array(testimonial.rating)].map((_, i) => (
+              <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+            ))}
+          </div>
+
+          <div className="relative">
+            <p className="text-muted-foreground leading-relaxed text-sm line-clamp-4">
+              &ldquo;{truncatedContent}&rdquo;
             </p>
+            
+            {needsExpansion && (
+              <button 
+                onClick={handleMoreClick}
+                className="absolute bottom-0 right-0 p-1 hover:bg-muted/50 rounded-full transition-colors group"
+                aria-label="Read more"
+              >
+                <MoreHorizontal className="w-4 h-4 text-muted-foreground group-hover:text-foreground" />
+              </button>
+            )}
           </div>
-        </div>
-
-        <div className="flex mb-3">
-          {[...Array(testimonial.rating)].map((_, i) => (
-            <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-          ))}
-        </div>
-
-        <p className="text-muted-foreground leading-relaxed text-sm">
-          &ldquo;{testimonial.content}&rdquo;
-        </p>
-      </CardContent>
-    </Card>
-  );
+        </CardContent>
+      </Card>
+    );
+  };
 
   return (
     <section
@@ -145,18 +189,9 @@ const TestimonialsSection = () => {
       <div className="max-w-6xl mx-auto px-4">
         {/* Section Header */}
         <div className="text-center my-8">
-          {/* <Badge
-            variant="secondary"
-            className="px-4 py-2 text-sm font-medium bg-secondary/50 text-secondary-foreground border-secondary/30 rounded-full mb-4"
-          >
-            ⭐ Student Success Stories
-          </Badge> */}
           <h2 className="text-2xl lg:text-3xl font-extrabold text-foreground">
             Loved by Students And Parents
           </h2>
-          {/* <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Real feedback from students who&apos;ve achieved their programming goals
-          </p> */}
         </div>
 
         {/* Testimonials Container with proper overflow handling */}
@@ -179,29 +214,50 @@ const TestimonialsSection = () => {
             </div>
           </div>
 
-          {/* Second Row - Moving Left */}
-          {/* <div>
-            <div
-              className="flex testimonial-scroll-left hover:pause-animation"
-              style={{
-                animation: "scrollLeft 40s linear infinite",
-                width: "fit-content",
-              }}
-            >
-              {extendedTestimonials2.map((testimonial, index) => (
-                <TestimonialCard
-                  key={`${testimonial.id}-${index}`}
-                  testimonial={testimonial}
-                />
-              ))}
-            </div>
-          </div> */}
-
-          {/* Gradient Overlays for smooth edges - now properly positioned */}
+          {/* Gradient Overlays for smooth edges */}
           <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-background via-background/80 to-transparent pointer-events-none z-10" />
           <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-background via-background/80 to-transparent pointer-events-none z-10" />
         </div>
       </div>
+
+      {/* Global Dialog - Outside of scrolling container */}
+      {testimonials1.concat(testimonials2).map((testimonial) => (
+        <Dialog 
+          key={testimonial.id} 
+          open={openDialogId === testimonial.id} 
+          onOpenChange={(open) => !open && setOpenDialogId(null)}
+        >
+          <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto">
+            <DialogHeader>
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-lg">
+                  {testimonial.avatar}
+                </div>
+                <div>
+                  <DialogTitle className="text-xl font-semibold">
+                    {testimonial.name}
+                  </DialogTitle>
+                  <p className="text-muted-foreground">
+                    {testimonial.role}
+                  </p>
+                </div>
+              </div>
+            </DialogHeader>
+            
+            <div className="space-y-4">
+              <div className="flex">
+                {[...Array(testimonial.rating)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              
+              <blockquote className="text-foreground leading-relaxed text-base border-l-4 border-primary/30 pl-4 italic">
+                &ldquo;{testimonial.content}&rdquo;
+              </blockquote>
+            </div>
+          </DialogContent>
+        </Dialog>
+      ))}
 
       {/* CSS Animations */}
       <style jsx>{`
@@ -230,6 +286,13 @@ const TestimonialsSection = () => {
 
         .pause-animation {
           animation-play-state: paused !important;
+        }
+
+        .line-clamp-4 {
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
         }
 
         /* Prefers-reduced-motion support for accessibility */
