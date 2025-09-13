@@ -214,6 +214,25 @@ const TestimonialsSection = () => {
             </div>
           </div>
 
+          {/* Second Row - Moving Left */}
+          {/* <div>
+            <div
+              className="flex testimonial-scroll-left hover:pause-animation"
+              style={{
+                animation: "scrollLeft 40s linear infinite",
+                width: "fit-content",
+              }}
+            >
+              {extendedTestimonials2.map((testimonial, index) => (
+                <TestimonialCard
+                  key={`${testimonial.id}-${index}`}
+                  testimonial={testimonial}
+                />
+              ))}
+            </div>
+          </div> */}
+
+
           {/* Gradient Overlays for smooth edges */}
           <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-background via-background/80 to-transparent pointer-events-none z-10" />
           <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-background via-background/80 to-transparent pointer-events-none z-10" />
@@ -227,7 +246,7 @@ const TestimonialsSection = () => {
           open={openDialogId === testimonial.id} 
           onOpenChange={(open) => !open && setOpenDialogId(null)}
         >
-          <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto">
+          <DialogContent className="max-w-2xl w-[95vw] max-h-[80vh] overflow-y-auto">
             <DialogHeader>
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-lg">

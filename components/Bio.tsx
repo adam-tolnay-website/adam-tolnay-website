@@ -122,7 +122,7 @@ export default function BioSection() {
 
       {/* Biography Modal */}
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-        <DialogContent className="max-w-6xl max-h-[85vh] overflow-y-auto">
+        <DialogContent className="max-w-6xl w-[95vw] max-h-[85vh] overflow-y-auto">
           <DialogHeader>
             <DialogTitle className="text-2xl font-bold">Adam Tolnay - Full Biography</DialogTitle>
           </DialogHeader>
