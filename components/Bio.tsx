@@ -155,12 +155,12 @@ export default function BioSection() {
                 </p>
               </div>
               
-              <div className="relative h-[300px] lg:h-full min-h-[300px]">
+              <div className="relative h-[400px] lg:h-full min-h-[300px]">
                 <Image
                   src="/images/3.jpg"
                   alt="Adam Tolnay"
                   fill
-                  className="object-cover rounded-lg"
+                  className="object-contain lg:object-cover rounded-lg"
                 />
               </div>
             </div>
