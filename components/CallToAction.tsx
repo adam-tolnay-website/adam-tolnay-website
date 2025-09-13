@@ -1,10 +1,23 @@
 import { Button } from "@/components/ui/button";
 import { Rocket } from "lucide-react";
+import Image from "next/image";
 
 export default function CallToAction() {
   return (
     <section className="pt-32 pb-60 px-4">
       <div className="max-w-3xl mx-auto text-center space-y-12">
+        {/* Avatar */}
+        <div className="flex justify-center mb-0">
+            <Image
+              src="/images/7.jpg"
+              alt="Adam's Avatar"
+              width={128}
+              height={128}
+              className="w-24 h-24 lg:w-32 lg:h-32 rounded-full object-cover border-4 border-primary/20 shadow-lg"
+            />
+            <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/10 to-transparent"></div>
+        </div>
+
         {/* Heading */}
         <h2 className="text-4xl lg:text-6xl font-bold text-foreground elegant-heading py-4">
           Have more questions? I&apos;m happy to talk!
