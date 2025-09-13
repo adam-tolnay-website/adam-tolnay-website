@@ -10,7 +10,7 @@ import {
 import Link from "next/link";
 import { siteConfig } from "@/lib/config/site";
 import { useState } from "react";
-import { Video, Mail, Menu } from "lucide-react";
+import { Users, Mail, Menu } from "lucide-react";
 import { handleSmoothScroll } from "@/lib/scroll-utils";
 
 export default function Nav() {
@@ -75,7 +75,7 @@ export default function Nav() {
               asChild
             >
               <Link href={siteConfig.links.book} target="_blank">
-                <Video className="text-primary-foreground w-5 h-5" />
+                <Users className="text-primary-foreground w-5 h-5" />
                 Book a Trial Lesson
               </Link>
             </Button>
@@ -118,7 +118,7 @@ export default function Nav() {
                   asChild
                 >
                   <Link href="/">
-                    <Video className="text-primary-foreground w-5 h-5 mt-0.5" />
+                    <Users className="text-primary-foreground w-5 h-5 mt-0.5" />
                     Book a Trial Lesson
                   </Link>
                 </Button>
