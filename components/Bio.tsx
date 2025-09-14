@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { ChevronRight } from "lucide-react";
+import { Button } from "./ui/button";
 
 export default function BioSection() {
   const [isVisible, setIsVisible] = useState(false);
@@ -55,13 +56,14 @@ export default function BioSection() {
             </div>
 
             {/* Read More Button */}
-            <button
+            <Button
+              variant="default"
               onClick={() => setIsModalOpen(true)}
-              className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors duration-200 font-medium group"
+              className="inline-flex items-center gap-2 font-medium group"
             >
               <span>Read full biography</span>
               <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </Button>
 
             {/* Stats or Highlights */}
             <div className="grid grid-cols-3 gap-6 pt-6">

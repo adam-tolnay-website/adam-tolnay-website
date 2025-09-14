@@ -104,7 +104,7 @@ export default function FAQ() {
           </p>
           <Button variant="outline" className="font-medium" asChild>
             <Link target="_blank" rel="noopener noreferrer" aria-label="Email" href={siteConfig.links.email}>
-                Email me →
+                Email me directly →
             </Link>
           </Button>
         </div>

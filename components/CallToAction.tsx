@@ -32,12 +32,12 @@ export default function CallToAction() {
           asChild
         >
           <Link href={siteConfig.links.zoom} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
-            Book A Free Trial Lesson
+            Book a Meeting with Me
             <Rocket className="ml-2 w-6 h-6" />
           </Link>
         </Button>
         <p className="text-md text-center">
-          Your first lesson is completely free of charge. I look forward to hearing from you!
+          Your first meeting is completely free of charge. I look forward to hearing from you!
         </p>
       </div>
     </section>
