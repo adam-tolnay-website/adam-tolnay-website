@@ -103,7 +103,7 @@ export default function BioSection() {
               {/* Main image container with responsive heights */}
               <div className="relative">
                 <Image
-                    src="/images/3.jpg"
+                    src="/images/3_revised.jpg"
                     alt="Ivy League Mentor Adam Tolnay"
                     width={800}
                     height={700}
@@ -169,7 +169,7 @@ export default function BioSection() {
               
               <div className="relative h-[400px] lg:h-full min-h-[300px]">
                 <Image
-                  src="/images/3.jpg"
+                  src="/images/3_revised.jpg"
                   alt="Adam Tolnay"
                   fill
                   className="object-contain lg:object-cover rounded-lg"

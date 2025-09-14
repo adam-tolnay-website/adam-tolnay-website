@@ -11,7 +11,7 @@ export default function CallToAction() {
         {/* Avatar */}
         <div className="flex justify-center mb-0">
             <Image
-              src="/images/7.jpg"
+              src="/images/7_revised.jpg"
               alt="Adam's Avatar"
               width={128}
               height={128}

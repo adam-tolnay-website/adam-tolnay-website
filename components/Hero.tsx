@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/config/site";
+import { MoveRight } from "lucide-react";
 
 interface HeroSectionProps {
     title?: string;
@@ -81,6 +82,7 @@ const HeroSection = ({
                         <Link href={siteConfig.links.book} target="_blank">
                             {ctaText}
                         </Link>
+                        <MoveRight className="ml-0 w-5 h-5" />
                     </Button>
                 </div>
 
@@ -93,7 +95,7 @@ const HeroSection = ({
                     {/* Main image */}
                     <div className="relative">
                         <Image
-                            src="/images/4.jpg"
+                            src="/images/4_revised.jpg"
                             alt="Ivy League Mentor Adam Tolnay"
                             width={800}
                             height={700}
