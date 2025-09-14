@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function CallToAction() {
   return (
-    <section className="pt-32 pb-60 px-4">
+    <section className="pt-16 md:pt-32 pb-20 md:pb-60 px-4">
       <div className="max-w-3xl mx-auto text-center space-y-12">
         {/* Avatar */}
         <div className="flex justify-center mb-0">

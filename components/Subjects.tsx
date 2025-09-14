@@ -175,7 +175,7 @@ I am looking for students who would like to open their minds, hearts and souls a
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4 text-center ">
               Courses and Journeys I Lead
             </h2>
-            <div className="w-120 h-1.5 bg-primary rounded-full mx-auto mb-10"></div>
+            <div className="w-30 md:w-120 h-1.5 bg-primary rounded-full mx-auto mb-10"></div>
             <p className="text-xl text-muted-foreground max-w-6xl mx-auto text-center ">
              Each of the headings below represents a course and a one-on-one intellectual journey. Each is an area of academic preparation where I have guided students to broaden their comprehension, deepen their insights, and articulate their understanding with richness and effectiveness.
             </p>

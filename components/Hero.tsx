@@ -71,7 +71,7 @@ const HeroSection = ({
                     {/* CTA Button */}
                     <Button
                         size="lg"
-                        className={`bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 scale-100 hover:scale-105 md:scale-110 md:hover:scale-115 ${
+                        className={`ml-4 bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 scale-100 hover:scale-105 md:scale-110 md:hover:scale-115 ${
                             isVisible
                                 ? "opacity-100 translate-y-0"
                                 : "opacity-0 translate-y-4"
@@ -97,13 +97,13 @@ const HeroSection = ({
                             alt="Ivy League Mentor Adam Tolnay"
                             width={800}
                             height={700}
-                            className="w-full h-[700px] object-cover rounded-2xl shadow-2xl"
+                            className="w-[300px] h-[400px] sm:w-[400px] sm:h-[500px] md:w-full md:h-[700px] object-cover rounded-2xl shadow-2xl mx-auto"
                             priority
-                            sizes="(max-width: 768px) 100vw, 50vw"
+                            sizes="(max-width: 640px) 200px, (max-width: 768px) 400px, 50vw"
                         />
 
                         {/* Optional overlay for better contrast */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl" />
+                        {/* <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl" /> */}
                     </div>
                 </div>
             </div>
