@@ -95,24 +95,34 @@ export default function BioSection() {
             }`}
           >
             <div className="relative">
-              {/* Background decoration */}
-              <div className="absolute -top-6 -right-6 w-full h-full bg-primary/10 rounded-2xl -z-10"></div>
-              {/* Main image */}
-              <Image
-                src="/images/3.jpg"
-                alt="Adam Tolnay - Ivy League Mentor"
-                width={600}
-                height={700}
-                className="w-full h-[700px] object-cover rounded-2xl shadow-2xl"
-              />
+              {/* Background decoration - hidden on mobile, smaller on tablet */}
+              <div className="hidden sm:block absolute -top-4 -right-4 lg:-top-6 lg:-right-6 w-full h-full bg-primary/10 rounded-2xl -z-10"></div>
+              
+              {/* Main image container with responsive heights */}
+              <div className="relative">
+                <Image
+                    src="/images/3.jpg"
+                    alt="Ivy League Mentor Adam Tolnay"
+                    width={800}
+                    height={700}
+                    className="w-[300px] h-[400px] sm:w-[400px] sm:h-[450px] lg:w-full md:h-[700px] object-cover rounded-2xl shadow-2xl mx-auto"
+                    priority
+                    sizes="(max-width: 640px) 200px, (max-width: 768px) 400px, 50vw"
+                />
 
-              {/* Floating badge */}
-              <div className="absolute -bottom-6 -left-6 bg-card/95 backdrop-blur-sm border border-border rounded-xl p-4 shadow-lg">
-                <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="text-sm font-medium text-foreground">
-                    Accepting New Students
-                  </span>
+                {/* Optional overlay for better contrast */}
+                {/* <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl" /> */}
+            </div>
+
+              {/* Floating badge - adjusted position and size for mobile */}
+              <div className="hidden lg:block">
+                <div className="absolute -bottom-4 -left-2 sm:-bottom-6 sm:-left-6 bg-card/95 backdrop-blur-sm border border-border rounded-lg sm:rounded-xl p-3 sm:p-4 shadow-lg">
+                  <div className="flex items-center space-x-2 sm:space-x-3">
+                    <div className="w-2 h-2 sm:w-3 sm:h-3 bg-green-500 rounded-full animate-pulse"></div>
+                    <span className="text-xs sm:text-sm font-medium text-foreground">
+                      Accepting New Students
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
