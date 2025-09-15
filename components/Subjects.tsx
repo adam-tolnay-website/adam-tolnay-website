@@ -52,14 +52,14 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
         Literature and Composition, AP World History, AP US History, AP
         Philosophy, AP Psychology…`, 
     image:
-        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop&crop=entropy&auto=format",
+        "/images/courses/test_prep_2.jpg",
     },
     {
       title: "University Application Counseling",
       description:
         `Over the course of the past fifteen years I have helped students gain admission to: Princeton, Stanford, Brown, Cornell, Dartmouth, MIT, the University of Pennsylvania, Georgetown, the University of California at Berkeley, the University of Texas at Austin, Oxford and many other fine institutions. `,
       image:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop&crop=entropy&auto=format",
+        "/images/courses/ivy_league_prep.jpg",
     },
     {
       title: "Non-Fiction Writing",
@@ -69,28 +69,28 @@ of the management of five distinct steps: thinking, distilling what
 one wishes to say, structuring, putting words in paper, and
 rewriting.`, 
     image:
-        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=250&fit=crop&crop=entropy&auto=format",
+        "/images/courses/nonfiction_2.jpg",
     },
     {
       title: "Reading and Writing History",
       description:
         "Structured curriculum focused on achieving your specific literary analysis and composition goals.",
       image:
-        "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=250&fit=crop&crop=entropy&auto=format",
+        "/images/courses/history_2.jpg",
     },
     {
       title: "Reading and Writing Fiction",
       description:
         "Comprehensive preparation for writing competitions at various levels.",
       image:
-        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=250&fit=crop&crop=entropy&auto=format",
+        "/images/courses/fiction_4.jpg",
     },
     {
       title: "Reading the Greek and Roman Epics",
       description:
         "Personalized lessons focusing on reading, writing, and communication skills.",
       image:
-        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=250&fit=crop&crop=entropy&auto=format",
+        "/images/courses/greek_3.jpg",
     },
   ];
 
@@ -101,7 +101,7 @@ rewriting.`,
       description: `Each year I assist students to achieve maximum scores on the following exams: SSAT, SAT, ACT, GRE, GMAT, AP English Language and Composition, AP English Literature and Composition, AP World History: Modern, AP European History, AP United States History, AP Comparative Government and Politics, UP United States Government and Politics, AP Human Geography.
 
         My approach to standardized tests is to work with each and every student one-on-one. Each student is able to access his or her native intelligence and find their own way to answer each question. In contrast to other approaches, my students do not relearn all of high school mathematics or master abstruse rules of English grammar, but rather gain control of their own minds, face each question as a puzzle and apply the most comfortable and effective mental patterns to each question—at speed.`,
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop&crop=entropy&auto=format",
+      image: "/images/courses/test_prep.jpg",
     },
     {
       title: "University Application Counseling",
@@ -110,7 +110,7 @@ rewriting.`,
 My work involves supporting every aspect of the college admissions application process from advising high school freshmen on course selection to helping sophomores and juniors start their own nonprofit organizations to guiding seniors’ minds and hearts as they express their inner selves in truthful, heartfelt and memorable personal statements.
 
 As a transfer student myself, I feel a special obligation to assist students who are driven to embark on the long and torturous process of transferring between undergraduate institutions. Over the course of the past few years I am proud to have assisted students to transfer to Stanford University and the University of North Carolina at Chapel Hill.`,
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop&crop=entropy&auto=format",
+      image: "/images/courses/ivy_league_prep.jpg",
     },
     { 
       title: "Non-Fiction Writing",
@@ -120,14 +120,14 @@ I see the writing process as the management of five distinct steps: thinking, di
 Writing goals vary. At the outset of any writing endeavor a student and I spend some time to clarify and understand the goal, the parameters, and the question as asked. My students have written: essays for writing competitions such as the John Locke Essay Contest and the New York Times writing contest, opinion and editorial pieces, essays for summer school applications, speeches and presentations that were debuted in front of wide audiences, and works of various lengths and genres submitted as parts of curricular projects.
 
 I approach writing as an active process: active thinking, active research, active distillation, active flow of words, and active revision. Through regular meetings in which we discuss the text, ideas and processes, the student acquires the skills to complete any writing task on their own.`,
-      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop&crop=entropy&auto=format",
+      image: "/images/courses/nonfiction_1.jpg",
     },
     {
       title: "Reading and Writing History",
       description: `Every semester or two I have had the great good fortune to have been introduced to a student who has a penchant for reading, discussing and writing history. Over the years my students and I have read and discussed: the history of the Roman Empire with a focus on the life of Augustus Cesar, the Revolutionary War and the Constitutional Convention, the Age of Jackson, the history of the Transcontinental Railroad, the Industrialization of Japan and the creation of the Japanese Colonial Empire, World War I on the Western and Eastern Front, Stalinism, and the building and destruction of the Berlin Wall.
 
 Each course is bespoke and tailored specifically to the student’s interest. We pick the books together and set the pace and goal of the course together, in dialogue. Most often we read college-level books and meet weekly to review chapters as long as 50 pages. Some of my students also choose to write papers and books on history. My most advanced student, a 15 year old, is at present completing his masterful 100+ page book on the Battles of the Napoleonic Wars.`,
-      image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop&crop=entropy&auto=format",
+      image: "/images/courses/history_3.jpg",
     },
     {
       title: "Reading and Writing Fiction",
@@ -137,7 +137,7 @@ The first are endowed with a wellspring of irrepressible imagination and have a 
 
 The second type of young writer had a soul that is inspired by a love of literature, psychology and appreciation of the craft of stitching words together into a tapestry of meaning. With such young people my goal is to expose the student to works of literature that we read together, dissect them for content, structure, phrasing and melody and thereby ignite the student’s senses to will themselves to embark on their own narrative.
 `,
-      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&h=400&fit=crop&crop=entropy&auto=format",
+      image: "/images/courses/fiction_3.jpg",
     },
     {
       title: "Reading the Greek and Roman Epics",
@@ -147,7 +147,7 @@ The course was so much fun and so successful that we continued to read Homer’s
 
 I am looking for students who would like to open their minds, hearts and souls and engage with timeless epic poetry in the company of some of the very brightest young people on the planet.
 `,
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop&crop=entropy&auto=format",
+      image: "/images/courses/greek_4.jpg",
     },
   ];
 
