@@ -25,7 +25,7 @@ export default function Home() {
       <div id="home">
         <HeroSection 
           title="Adam Tolnay"
-          subtitle="I am a Harvard educated mentor committed to passing on the content and spirit of the personalized advising and guidance that I received during the entire arc of my own academic, intellectual and life journey."
+          subtitle="I am a Harvard-educated mentor committed to passing on the content and spirit of the personalized guidance I received during the entire arc of my own academic, intellectual and life journey."
           ctaText="Book a Trial Lesson Today"
         />
       </div>

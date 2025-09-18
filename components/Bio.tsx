@@ -42,16 +42,15 @@ export default function BioSection() {
               </p>
 
               <p className="text-lg">
-                Alongside many of my esteemed peers, I spent the first half of my life
-                  aspiring to and completing courses of study at some of the world&apos;s
+                I spent the first third of my life aspiring to and completing courses of study at some of the world&apos;s
                   most selective institutions: <b>Harvard College A.B. Magna Cum Laude
                   </b>, <b>the London School of Economics M.Sc.</b>, <b>Harvard University A.M.</b>, <b>
                   Georgetown University PhD. ABD</b>, <b>Stanford University PhD, Stanford University Reuters Digital
-                  Visions Fellowship</b>. At each and every step of my formal education I
-                  was blessed to have been mentored by persons such as the late Prof.
-                  Ezra Vogel, Prof. Dominic Lieven, Prof. Michael Puett, and Prof.
-                  Chiho Sawada, who each took a genuine interest in my personal
-                  intellectual development.
+                  Visions Fellowship</b>. At each and every step, I was fortunate to have been 
+                  mentored by intellectually robust and personally generous educators such as 
+                  Prof. Ezra Vogel, Prof. Dominic Lieven, Prof. Michael Puett. They took a 
+                  genuine interest in my personal intellectual development and opened 
+                  my eyes to new ways of seeing the world.
               </p>
             </div>
 
@@ -150,20 +149,19 @@ export default function BioSection() {
                 </p>
 
                 <p>
-                  Alongside many of my esteemed peers, I spent the first half of my life
-                  aspiring to and completing courses of study at some of the world&apos;s
+                  I spent the first third of my life aspiring to and completing courses of study at some of the world&apos;s
                   most selective institutions: <b>Harvard College A.B. Magna Cum Laude
                   </b>, <b>the London School of Economics M.Sc.</b>, <b>Harvard University A.M.</b>, <b>
                   Georgetown University PhD. ABD</b>, <b>Stanford University PhD, Stanford University Reuters Digital
-                  Visions Fellowship</b>. At each and every step of my formal education I
-                  was blessed to have been mentored by persons such as the late Prof.
-                  Ezra Vogel, Prof. Dominic Lieven, Prof. Michael Puett, and Prof.
-                  Chiho Sawada, who each took a genuine interest in my personal
-                  intellectual development.
+                  Visions Fellowship</b>. At each and every step, I was fortunate to have been 
+                  mentored by intellectually robust and personally generous educators such as 
+                  Prof. Ezra Vogel, Prof. Dominic Lieven, Prof. Michael Puett. They took a 
+                  genuine interest in my personal intellectual development and opened 
+                  my eyes to new ways of seeing the world.
                 </p>
 
                 <p>
-                  In 1992 I launched my first educational non-profit, Learning Enterprises, an organization that mobilized Harvard undergraduates to spend summers teaching English in villages in Eastern Europe while living with host families. I ran Learning Enterprises for 11 years before passing it on to colleagues who replicated our model and extended it to 14 other countries including China, Thailand, Mexico, Ethiopia and Mauritius. Later I launched similar stand-alone NGOs that brought teachers to rural India and to the islands of Papua New Guinea. The decade and a half spent running people-to-people global educational organizations distilled in me my life&apos;s mission: to connect students to teachers who care about them beyond the four walls of the classroom and for longer than a semester or a school year.
+                  In 1992, I launched my first educational non-profit, Learning Enterprises, an organization that mobilized Harvard undergraduates to spend summers teaching English in villages in Eastern Europe. I ran Learning Enterprises for 11 years before passing it on to colleagues who replicated our model and extended it to 14 other countries, including China, Thailand, Mexico, Ethiopia and Mauritius. Later, I launched similar non-profit organizations that brought teachers to rural India and to the islands of Papua New Guinea. The decade and a half spent running people-to-people global educational organizations distilled my life’s mission: to connect students to teachers who care about them beyond the four walls of the classroom and for periods longer than a semester. 
                 </p>
               </div>
               
@@ -180,14 +178,14 @@ export default function BioSection() {
             {/* Second Section */}
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Over the course of the past 15 years I lived and worked in Asia, serving as the Director of Counseling for Byron Education, a division of Dulwich College International in Shanghai, as the Head of the American Degree Transfer Program at Sunway University in Kuala Lumpur, and as the Ivy League Mentor for Special A Education in Beijing. I had the great good fortune to be able to work one-on-one with some of the brightest and most motivated students on the planet and to serve as a guide to them as they reached for the stars and landed at Stanford, MIT, Dartmouth, Cornell, Georgetown. In working with amazing students one-on-one I came to see that most high school students lack a mentor who is committed to the development of their own unique intellects and souls.
+                Over the course of the past 15 years, I lived and worked in Asia, serving as the Director of Counseling for Byron Education, a division of Dulwich College International in Shanghai, as the Head of the American Degree Transfer Program at Sunway University in Kuala Lumpur, and as the Ivy League Mentor for Special A Education in Beijing. I was extremely lucky to be able to work one-on-one with some of the brightest and most motivated students on the planet and to serve as a guide to them as they reached for the stars and landed at Stanford, MIT, Dartmouth, Cornell, Georgetown. In working with amazing students I came to see that most high school students lack a mentor who is committed to the development of their own unique intellects and souls.
               </p>
             </div>
 
             {/* Final Section */}
             <div className="text-muted-foreground leading-relaxed">
               <p className="text-md text-center">
-                Now, at the spritely age of 55, I seek to pay back my esteemed mentors by offering my experience to high school students who seek not only to gain admission to some of the most prestigious universities around the world but who also aspire to think, understand, feel, articulate, discern and express.
+                Now, at the spritely age of 55, I seek to pay back my esteemed mentors. I do so by offering my expertise to high school students who seek not only to gain admission to some of the most prestigious universities around the world but who also aspire to think, understand, feel, articulate, discern and express.
               </p>
             </div>
 
