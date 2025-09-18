@@ -18,11 +18,11 @@ export default function FAQ() {
   const faqs = [
     {
       question: "How are your mentoring sessions conducted?",
-      answer: "I work on Zoom and adapt to the student's schedule. Most sessions are weekly and last one hour, but I ready to meet as frequently as necessary to meet deadlines. In the heat of the college application season a student and I met every few hours during the course of a long weekend. The student revised his personal statement 22 times and was admitted to the Wharton School of Business at the University of Pennsylvania.",
+      answer: "I work on Zoom and adapt to each student's schedule. Most of my sessions are weekly and last one hour, but I am ready to meet as frequently as necessary to meet deadlines. In the heat of the college application season, a student and I met every few hours for two days straight. The student revised his personal statement 22 times and was rewarded for it. He was admitted to and matriculated at the Wharton School of Business at the University of Pennsylvania.",
     },
     {
       question: "What's Your Teaching Approach?",
-      answer: "With the exception of my Reading the Greek and Roman Epics course, I work one-on-one with all my students. This means that at the outset of each journey the student and I discuss and collectively decide on the goals, subject matter, depth, pacing, and deliverables. My goal is to make sure that over the course of our intellectual journey each student learns how to think more deeply, write more effectively and grows in wisdom.",
+      answer: "Except for my Reading the Greek and Roman Epics course, I work one-on-one with all my students. This means that, at the outset of each journey, a student and I discuss and together decide on the goals, subject matter, depth, pacing, and deliverables of the course. My goal is to make sure that each student learns how to think more deeply, learns how to write more effectively and grows in wisdom.",
     },
     {
       question: "How much do lessons cost?",
@@ -30,7 +30,7 @@ export default function FAQ() {
     },
     {
       question: "How do I schedule and pay for sessions?",
-      answer: "The student and I schedule our sessions one month or even one semester ahead. I ask for the student or their parent to pre-pay the first ten sessions and am happy to refund any unused time.",
+      answer: "The student and I schedule our sessions one month or even one semester ahead. I ask the parents to pre-pay for the first ten sessions, and I am, of course, happy to refund any unused time.",
     },
     {
       question: "What if I need to cancel or reschedule?",
