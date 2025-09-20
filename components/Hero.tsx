@@ -60,7 +60,7 @@ const HeroSection = ({
 
                     {/* Subtitle */}
                     <p
-                        className={`text-xl lg:text-2xl elegant-text text-muted-foreground leading-relaxed max-w-lg transition-all duration-700 delay-300 ${
+                        className={`text-xl lg:text-3xl elegant-text text-muted-foreground leading-relaxed max-w-lg transition-all duration-700 delay-300 ${
                             isVisible
                                 ? "opacity-100 translate-y-0"
                                 : "opacity-0 translate-y-6"
@@ -95,7 +95,7 @@ const HeroSection = ({
                     {/* Main image */}
                     <div className="relative">
                         <Image
-                            src="/images/8.jpg"
+                            src="/images/3_revised.jpg"
                             alt="Ivy League Mentor Adam Tolnay"
                             width={800}
                             height={700}
