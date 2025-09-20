@@ -61,14 +61,14 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
     {
       title: "Non-Fiction Writing",
       description:
-        `My students have written essays for writing competitions such as the John Locke Essay Contest and the New York Times writing contest, opinion and editorial pieces, essays for summer school applications, speeches and presentations that were debuted in front of wide audiences, and works of various lengths and genres submitted as part of curricular projects.`, 
+        `Writing goals vary. My students have submitted essays for the John Locke Essay Contest, the New York Times Writing Contest, opinion and editorial pieces, and summer school applications. They have also written speeches and presentations that were delivered in front of wide audiences, and crafted works of various lengths and genres submitted as part of curricular projects.`, 
     image:
         "/images/courses/nonfiction_2.jpg",
     },
     {
       title: "Reading and Writing History",
       description:
-        " Over the years my students and I have read and discussed: the history of the Roman Empire with a focus on the life of Augustus Cesar, the Revolutionary War and the Constitutional Convention, the Age of Jackson, the history of the Transcontinental Railroad, the Industrialization of Japan and the creation of the Japanese Colonial Empire, World War I on the Western and Eastern Front, Stalinism, and the building and destruction of the Berlin Wall.",
+        "Over the years my students and I have read and discussed: the history of the Roman Empire with a focus on the life of Augustus Cesar, the Revolutionary War and the Constitutional Convention, the Age of Jackson, the history of the Transcontinental Railroad, the Industrialization of Japan and the creation of the Japanese Colonial Empire, World War I on the Western and Eastern Front, Stalinism, and the building and destruction of the Berlin Wall.",
       image:
         "/images/courses/history_2.jpg",
     },
@@ -80,7 +80,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
         "/images/courses/fiction_4.jpg",
     },
     {
-      title: "Reading the Greek and Roman Epics",
+      title: "Reading Greek and Roman Epics and Plays",
       description:
         "Two years ago, two precocious students and I embarked on a special reading course. Week after week we met to discuss Homer’s Iliad, which we read with our attention centered not on plot or character development but on phrasing and meaning. In the process, we learned to listen to the wisdom and the fun of these texts—and learned to love the classics.",
       image:
@@ -107,7 +107,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
     },
     { 
       title: "Non-Fiction Writing",
-      description: `Writing goals vary.  My students have written essays for writing competitions such as the John Locke Essay Contest and the New York Times writing contest, opinion and editorial pieces, essays for summer school applications, speeches and presentations that were debuted in front of wide audiences, and works of various lengths and genres submitted as part of curricular projects.
+      description: `Writing goals vary. My students have submitted essays for the John Locke Essay Contest, the New York Times Writing Contest, opinion and editorial pieces, and summer school applications. They have also written speeches and presentations that were delivered in front of wide audiences, and crafted works of various lengths and genres submitted as part of curricular projects.
 
       I see the writing process as the management of five distinct steps and teach my students to see writing as an active process: active thinking, active research, active distillation, active flow of words, and active revision. My approach is not simply to review a student's latest draft but to actively engage the student and the text in conversation and via simultaneous writing and revision. `,
       image: "/images/courses/nonfiction_1.jpg",
@@ -131,12 +131,14 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
       image: "/images/courses/fiction_3.jpg",
     },
     {
-      title: "Reading the Greek and Roman Epics",
-      description: `Two years ago, two precocious students and I embarked on a special reading course. Week after week we met to discuss Homer’s Iliad, which we read with our attention centered not on plot or character development but on phrasing and meaning. In the process, we learned to listen to the wisdom and the fun of these texts—and learned to love the classics.
+      title: "Reading Greek and Roman Epics and Plays",
+      description: `Two years ago, two precocious students and I embarked on a special reading course. Each Thursday we met to read a chapter of Homer's Iliad, the world's first epic poem. We read with our attention on phrasing and meaning. I guided the young men on a journey of discovery: of the text, of the age of Greek heroes, and of themselves.
 
-      The course was so much fun and so successful that we continued to read Homer’s Odyssey. We will next read Virgil's Aeneid.
+      The course proved to be so much fun that we decided to continue to read the next epic poem: Homer’s Odyssey. Here I am guiding my excellent students on a journey of understanding of what it means to be a full human being.  
 
-      I am actively looking for students who would like to join us and open their minds, hearts and souls to timeless epic poetry in the company of two of the brightest students I have ever met.`,
+      Next will next read classic Greek Plays such as Oedipus Rex, the Oresteia and Medea. We will also tackle the greatest Roman epic, Virgil's Aeneid. 
+
+      I am actively looking for students who would like to join us and open their minds, hearts and souls to timeless epic poetry in the company of the very brightest students.`,
       image: "/images/courses/greek_4.jpg",
     },
   ];
@@ -167,7 +169,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
             </h2>
             <div className="w-30 md:w-120 h-1.5 bg-primary rounded-full mx-auto mb-10"></div>
             <p className="text-xl text-muted-foreground max-w-6xl mx-auto text-center ">
-              Each of the headings below is at once a course and a one-on-one intellectual journey. During the journey, I not only pass on content knowledge but guide students to broaden their comprehension, deepen their insights, and learn how to articulate their newfound understanding.
+              Each course below is a one-on-one intellectual journey. During the journey, I not only pass on content knowledge but guide students to broaden their comprehension, deepen their insights, and learn how to articulate their newfound understanding.
             </p>
           </div>
 
