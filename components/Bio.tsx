@@ -28,29 +28,27 @@ export default function BioSection() {
             {/* Section Title */}
             <div className="space-y-4">
               <h2 className="text-4xl lg:text-5xl font-bold text-foreground elegant-heading">
-                About Adam
+                About Me
               </h2>
               <div className="w-20 h-1 bg-primary rounded-full"></div>
             </div>
 
-            {/* Bio Text - First 2 Paragraphs */}
+            {/* Bio Text - Intro */}
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p className="text-lg">
-                I am a lifelong educator committed to passing on the personalized
-                mentoring that I was fortunate enough to receive throughout the
-                entire arc of my own academic, intellectual and life journey.
+                I am a lifelong educator committed to passing on the personalized mentoring 
+                that I was fortunate enough to receive throughout the entire arc of my own academic, 
+                intellectual and life journey.
               </p>
 
               <p className="text-lg">
-                I spent the first third of my life aspiring to and completing courses of study at some of the world&apos;s
-                  most selective institutions: <b>Harvard College A.B. Magna Cum Laude
+                I spent the first third of my life aspiring to and completing courses of study at some of the world&apos;s most selective institutions: <b>Harvard College A.B. Magna Cum Laude
                   </b>, <b>the London School of Economics M.Sc.</b>, <b>Harvard University A.M.</b>, <b>
-                  Georgetown University PhD. ABD</b>, <b>Stanford University PhD, Stanford University Reuters Digital
-                  Visions Fellowship</b>. At each and every step, I was fortunate to have been 
-                  mentored by intellectually robust and personally generous educators such as 
-                  Prof. Ezra Vogel, Prof. Dominic Lieven, Prof. Michael Puett. They took a 
-                  genuine interest in my personal intellectual development and opened 
-                  my eyes to new ways of seeing the world.
+                  Georgetown University Ph.D. ABD</b>, <b>Stanford University Reuters Digital
+                  Visions Fellowship</b>. 
+              </p>
+              <p className="text-lg">
+                At each and every step, I was fortunate to have been mentored by intellectually robust and personally generous educators such as Prof. Ezra Vogel, Prof. Dominic Lieven, Prof. Michael Puett. They took a genuine interest in my intellectual development and opened my eyes to new ways of seeing the world.
               </p>
             </div>
 
@@ -102,7 +100,7 @@ export default function BioSection() {
               {/* Main image container with responsive heights */}
               <div className="relative">
                 <Image
-                    src="/images/3_revised.jpg"
+                    src="/images/9.jpg"
                     alt="Ivy League Mentor Adam Tolnay"
                     width={800}
                     height={700}
@@ -142,32 +140,30 @@ export default function BioSection() {
             {/* First Section with Image */}
             <div className="grid lg:grid-cols-2 gap-8 items-start">
               <div className="space-y-4 text-muted-foreground leading-relaxed">
-                <p>
-                  I am a lifelong educator committed to passing on the personalized
-                  mentoring that I was fortunate enough to receive throughout the
-                  entire arc of my own academic, intellectual and life journey.
+                <p className="text-md">
+                  I am a lifelong educator committed to passing on the personalized mentoring 
+                  that I was fortunate enough to receive throughout the entire arc of my own academic, 
+                  intellectual and life journey.
+                </p>
+
+                <p className="text-md">
+                  I spent the first third of my life aspiring to and completing courses of study at some of the world&apos;s most selective institutions: <b>Harvard College A.B. Magna Cum Laude
+                    </b>, <b>the London School of Economics M.Sc.</b>, <b>Harvard University A.M.</b>, <b>
+                    Georgetown University Ph.D. ABD</b>, <b>Stanford University Reuters Digital
+                    Visions Fellowship</b>. 
+                </p>
+                <p className="text-md">
+                  At each and every step, I was fortunate to have been mentored by intellectually robust and personally generous educators such as Prof. Ezra Vogel, Prof. Dominic Lieven, Prof. Michael Puett. They took a genuine interest in my intellectual development and opened my eyes to new ways of seeing the world.
                 </p>
 
                 <p>
-                  I spent the first third of my life aspiring to and completing courses of study at some of the world&apos;s
-                  most selective institutions: <b>Harvard College A.B. Magna Cum Laude
-                  </b>, <b>the London School of Economics M.Sc.</b>, <b>Harvard University A.M.</b>, <b>
-                  Georgetown University PhD. ABD</b>, <b>Stanford University PhD, Stanford University Reuters Digital
-                  Visions Fellowship</b>. At each and every step, I was fortunate to have been 
-                  mentored by intellectually robust and personally generous educators such as 
-                  Prof. Ezra Vogel, Prof. Dominic Lieven, Prof. Michael Puett. They took a 
-                  genuine interest in my personal intellectual development and opened 
-                  my eyes to new ways of seeing the world.
-                </p>
-
-                <p>
-                  In 1992, I launched my first educational non-profit, Learning Enterprises, an organization that mobilized Harvard undergraduates to spend summers teaching English in villages in Eastern Europe. I ran Learning Enterprises for 11 years before passing it on to colleagues who replicated our model and extended it to 14 other countries, including China, Thailand, Mexico, Ethiopia and Mauritius. Later, I launched similar non-profit organizations that brought teachers to rural India and to the islands of Papua New Guinea. The decade and a half spent running people-to-people global educational organizations distilled my life’s mission: to connect students to teachers who care about them beyond the four walls of the classroom and for periods longer than a semester. 
+                  In 1992, I launched my first educational non-profit, Learning Enterprises, an organization that mobilized Harvard undergraduates to spend summers teaching English in villages in Eastern Europe. I ran Learning Enterprises for 11 years before passing it on to colleagues who replicated our model and extended it to 14 other countries, including China, Thailand, Mexico, Ethiopia and Mauritius. Later, I launched similar non-profit organizations that brought teachers to rural India and to the islands of Papua New Guinea. The decade and a half spent running people-to-people global educational organizations distilled my life’s mission: to connect students to teachers who care about them beyond the four walls of the classroom and for periods longer than a semester.
                 </p>
               </div>
               
               <div className="relative h-[400px] lg:h-full min-h-[300px]">
                 <Image
-                  src="/images/3_revised.jpg"
+                  src="/images/9.jpg"
                   alt="Adam Tolnay"
                   fill
                   className="object-contain lg:object-cover rounded-lg"
@@ -181,10 +177,10 @@ export default function BioSection() {
                 Over the course of the past 15 years, I lived and worked in Asia, serving as the Director of Counseling for Byron Education, a division of Dulwich College International in Shanghai, as the Head of the American Degree Transfer Program at Sunway University in Kuala Lumpur, and as the Ivy League Mentor for Special A Education in Beijing. I was extremely lucky to be able to work one-on-one with some of the brightest and most motivated students on the planet and to serve as a guide to them as they reached for the stars and landed at Stanford, MIT, Dartmouth, Cornell, Georgetown. In working with amazing students I came to see that most high school students lack a mentor who is committed to the development of their own unique intellects and souls.
               </p>
             </div>
-
+              
             {/* Final Section */}
             <div className="text-muted-foreground leading-relaxed">
-              <p className="text-md text-center">
+              <p className="text-md text-left">
                 Now, at the spritely age of 55, I seek to pay back my esteemed mentors. I do so by offering my expertise to high school students who seek not only to gain admission to some of the most prestigious universities around the world but who also aspire to think, understand, feel, articulate, discern and express.
               </p>
             </div>

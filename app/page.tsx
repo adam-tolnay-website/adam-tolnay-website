@@ -25,11 +25,12 @@ export default function Home() {
       <div id="home">
         <HeroSection 
           title="Adam Tolnay"
-          subtitle="I am a Harvard-educated mentor committed to passing on the content and spirit of the personalized guidance I received during the entire arc of my own academic, intellectual and life journey."
+          subtitle="I am a Harvard-educated mentor committed to passing on the content and spirit of the personalized guidance I received during my academic, intellectual and life journey."
           ctaText="Book a Trial Lesson Today"
         />
       </div>
 
+      {/* Show only on mobile */}
       <div id="degrees" className="block md:hidden">
         <Degrees />
       </div>
@@ -38,6 +39,7 @@ export default function Home() {
         <TestimonialsSection />
       </div>
 
+      {/* Show only on desktop */}
       <div id="degrees" className="hidden md:block">
         <Degrees />
       </div>

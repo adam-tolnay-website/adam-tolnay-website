@@ -95,7 +95,7 @@ const HeroSection = ({
                     {/* Main image */}
                     <div className="relative">
                         <Image
-                            src="/images/4_revised.jpg"
+                            src="/images/8.jpg"
                             alt="Ivy League Mentor Adam Tolnay"
                             width={800}
                             height={700}
