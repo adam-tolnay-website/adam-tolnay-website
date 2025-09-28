@@ -53,7 +53,7 @@ export default function Nav() {
         </div>
 
         <div className="flex items-center">
-          <div className="flex items-center justify-between mr-6">
+          <div className="hidden lg:flex">
             <Button variant="outline" size="default" asChild>
               <Link
                 href={siteConfig.links.email}
@@ -68,7 +68,7 @@ export default function Nav() {
             </Button>
           </div>
 
-          <div className="hidden lg:flex">
+          <div className="flex items-center justify-between mx-6">
             <Button
               variant="default"
               className="text-sm elegant-text font-normal bg-primary hover:bg-primary/90"
