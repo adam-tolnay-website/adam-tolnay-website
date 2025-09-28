@@ -32,7 +32,7 @@ export default function CallToAction() {
           asChild
         >
           <Link href={siteConfig.links.zoom} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
-            Book a Meeting with Me
+            Email Me
             <Rocket className="ml-2 w-6 h-6" />
           </Link>
         </Button>

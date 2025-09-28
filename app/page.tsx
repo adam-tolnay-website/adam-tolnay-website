@@ -2,13 +2,13 @@
 import { useState, useEffect } from "react";
 import HeroSection from "@/components/Hero";
 import SubjectsSection from "@/components/Subjects";
-import TestimonialsSection from "@/components/Testinomials";
 import Bio from "@/components/Bio";
 import CallToAction from "@/components/CallToAction";
 import { smoothScrollToId } from "@/lib/scroll-utils";
 import { siteConfig } from "@/lib/config/site";
 import FAQ from "@/components/FAQ";
 import Degrees from "@/components/Degrees";
+import TestimonialsSection from "@/components/Testinomials";
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -25,9 +25,13 @@ export default function Home() {
       <div id="home">
         <HeroSection 
           title="Adam Tolnay"
-          subtitle="I am a Harvard-educated mentor committed to passing on the content and spirit of the personalized guidance I received during my academic, intellectual and life journey."
+          // subtitle="I am a Harvard-educated mentor who offers personalized instruction and seasoned, caring guidance to aspiring students. My mission is to empower each student to find their passion while developing valuable intellectual skills."
           ctaText="Book a Trial Lesson Today"
         />
+      </div>
+
+      <div id="subjects">
+        <SubjectsSection isVisible={isVisible} />
       </div>
 
       {/* Show only on mobile */}
@@ -46,10 +50,6 @@ export default function Home() {
 
       <div id="bio">
         <Bio />
-      </div>
-
-      <div id="subjects">
-        <SubjectsSection isVisible={isVisible} />
       </div>
 
       <div id="faq">

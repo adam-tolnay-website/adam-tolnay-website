@@ -15,7 +15,7 @@ interface HeroSectionProps {
 
 const HeroSection = ({
     title = "Adam Tolnay",
-    subtitle = "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    subtitle = "I am a Harvard-educated mentor who offers personalized instruction and seasoned, caring guidance to aspiring students.", 
     ctaText = "Book a Trial Lesson",
 }: HeroSectionProps) => {
     const [isVisible, setIsVisible] = useState(false);
@@ -36,7 +36,7 @@ const HeroSection = ({
                     }`}
                 >
                     {/* Badge */}
-                    <Badge
+                    {/* <Badge
                         variant="secondary"
                         className={`px-4 py-2 text-sm font-medium bg-secondary/50 text-secondary-foreground border-secondary/30 rounded-full transition-all duration-700 delay-100 ${
                             isVisible
@@ -45,7 +45,7 @@ const HeroSection = ({
                         }`}
                     >
                         ✨ Ivy League Mentor
-                    </Badge>
+                    </Badge> */}
 
                     {/* Main heading */}
                     <h1
@@ -67,6 +67,14 @@ const HeroSection = ({
                         }`}
                     >
                         {subtitle}
+                    </p>
+
+                    <p className={`text-xl lg:text-3xl elegant-text text-muted-foreground leading-relaxed max-w-lg transition-all duration-700 delay-300 ${
+                            isVisible
+                                ? "opacity-100 translate-y-0"
+                                : "opacity-0 translate-y-6"
+                        }`}>
+                        My mission is to empower each student to find their passion while developing valuable intellectual skills.
                     </p>
 
                     {/* CTA Button */}
@@ -95,7 +103,7 @@ const HeroSection = ({
                     {/* Main image */}
                     <div className="relative">
                         <Image
-                            src="/images/3_revised.jpg"
+                            src="/images/12.jpg"
                             alt="Ivy League Mentor Adam Tolnay"
                             width={800}
                             height={700}
