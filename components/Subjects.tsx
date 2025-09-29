@@ -92,53 +92,64 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
   const detailedSubjects: DetailedSubject[] = [
     {
       title: "Test Preparation",
-      description: `I train and coach students to achieve maximum scores on the following exams: SSAT, SAT, ACT, GRE, GMAT, AP English Language and Composition, AP English Literature and Composition, AP World History: Modern, AP European History, AP United States History, AP Comparative Government and Politics, AP United States Government and Politics, AP Human Geography.
+      description: `I train and coach students to achieve maximum scores on the following standardized exams:
+        - SSAT
+        - SAT
+        - ACT
+        - GRE
+        - GMAT
 
-      I work one-on-one and help each student unlock his or her native intelligence and find their own preferred way to answer each question. In contrast to other approaches, my students do not relearn all of high school mathematics or master abstruse rules of English grammar. Rather, they gain control of their own minds, tackle each question as a puzzle, and apply the most comfortable and effective mental patterns to each question—at speed.`,
+        I also prepare students for the following Advanced Placement (AP) courses:
+        AP English Language and Composition, AP English Literature and Composition, AP World History: Modern, AP European History, AP United States History, AP Comparative Government and Politics, AP United States Government and Politics, AP Human Geography, AP Art History.
+
+        In contrast to other approaches that rely on rote learning and memorization, I teach my students how to gain control of their own minds, tackle questions as puzzles, and apply the most effective native mental processes to each question—at speed.`,
       image: "/images/courses/test_prep.jpg",
     },
     {
       title: "University Application Counseling",
-      description: `Over the course of the past fifteen years, I have helped students gain admission to Princeton, Stanford, Brown, Cornell, Dartmouth, MIT, the University of Pennsylvania, Georgetown, the University of California at Berkeley, the University of Texas at Austin, Oxford and many other fine institutions. 
+      description: `Over the course of the past fifteen years, I have helped students gain admission to Stanford, Princeton, Brown, Cornell, Dartmouth, MIT, the University of Pennsylvania, Georgetown, the University of California at Berkeley, the University of Texas at Austin, Oxford, the London School of Economics, and many other fine institutions. 
 
-      I support students and parents in every aspect of the college admissions application process, from advising first year high school students on course selection to helping sophomores and juniors start their own nonprofit organizations, to guiding seniors as they express their inner selves in truthful, heartfelt and memorable personal statements.
+      I support students and parents in every aspect of the college admissions application process, from advising first-year high school students on course selection to helping sophomores and juniors start their own nonprofit organizations to guiding seniors as they express their inner selves in truthful, heartfelt, and memorable personal statements. 
 
-      As a former transfer student, I feel a special obligation to assist students who are driven to embark on the long and torturous process of transferring between undergraduate institutions. Over the course of the past few years, I am proud to have assisted students to transfer to Stanford University and to the University of North Carolina at Chapel Hill.`, image: "/images/courses/ivy_league_prep.jpg",
+      As a former transfer student, I feel a special obligation to assist others who are driven to embark on the long process of transferring between undergraduate institutions. I am proud to have assisted students in transferring to Stanford University and to the University of North Carolina at Chapel Hill.`, 
+      image: "/images/courses/ivy_league_prep.jpg",
     },
     { 
       title: "Non-Fiction Writing",
-      description: `Writing goals vary. My students have submitted essays for the John Locke Essay Contest, the New York Times Writing Contest, opinion and editorial pieces, and summer school applications. They have also written speeches and presentations that were delivered in front of wide audiences, and crafted works of various lengths and genres submitted as part of curricular projects.
+      description: `Writing goals vary. I help students to achieve their goals regardless of their familiarity with the writing process.
 
-      I see the writing process as the management of five distinct steps and teach my students to see writing as an active process: active thinking, active research, active distillation, active flow of words, and active revision. My approach is not simply to review a student's latest draft but to actively engage the student and the text in conversation and via simultaneous writing and revision. `,
+      My students have submitted essays to the John Locke Essay Contest, the New York Times Writing Contest, Op-Ed pieces, and summer school applications. They wrote speeches and presentations that they later delivered to live audiences, and crafted works of various lengths and genres submitted as part of curricular projects. 
+
+      I see the writing process as the management of five distinct steps and teach my students to see writing as an active process: active thinking, active research, active distillation, active flow of words, and active revision. My approach is not to review a student's work but to actively engage the student in conversation, in simultaneous writing, and revision.`,
       image: "/images/courses/nonfiction_1.jpg",
     },
     {
       title: "Reading and Writing History",
-      description: `I have loved history since I was an adolescent. Fortunately, a select few young people today also have a penchant for reading, discussing and writing history. Over the years my students and I have read and discussed: the history of the Roman Empire with a focus on the life of Augustus Cesar, the Revolutionary War and the Constitutional Convention, the Age of Jackson, the history of the Transcontinental Railroad, the Industrialization of Japan and the creation of the Japanese Colonial Empire, World War I on the Western and Eastern Front, Stalinism, and the building and destruction of the Berlin Wall.
+      description: `I have loved history since I was an adolescent. Fortunately, a select few young people today also have a penchant for reading, discussing, and writing history.
 
-      Each of my courses is bespoke and tailored specifically to a student’s specific interest. We pick the topic and era to explore together, pick the books we will read together and set the pace and goal of the course together. Most often we read college-level books and meet weekly to review chapters, often as long as 50 pages. 
-      
-      Some of my students also choose to write papers and books. My most advanced student, a 15-year-old, is at present completing his masterful 100+ page book on the Battles of the Napoleonic Wars.`,
+        Over the years my students and I have read and discussed: the history of the Roman Empire with a focus on the life of Augustus Cesar, the Revolutionary War and the Constitutional Convention, the Age of Jackson, the history of the Transcontinental Railroad, the Industrialization of Japan and the creation of the Japanese Colonial Empire, World War I on the Western and Eastern Front, Stalinism, and the building and destruction of the Berlin Wall.
+
+        Each of my courses is bespoke and tailored specifically to a student’s specific interests. The student and I work in tandem: we choose a topic and era to explore, select the books we will read, and set the pace and goals of the course. Most often, we read college-level books and meet weekly to review chapters.
+
+        Some of my students also choose to write papers and books. My most advanced student, a 15-year-old, is at present completing his masterful 100+ page book on the Battles of the Napoleonic Wars.`,
       image: "/images/courses/history_3.jpg",
     },
     {
       title: "Reading and Writing Fiction",
-      description: `Young readers and writers of fiction fall into two essential categories. 
+      description: `Young readers and writers of fiction fall into two categories.
 
-      The first are endowed with a wellspring of irrepressible imagination and have a visceral need to bring these stories/dreams/inner voices/inspired musing to life. With such writers, my contribution is to encourage them to let their words bubble forth, to serve as their first reader, to gently guide and sometimes gently critique, but above all else, to witness and champion their creative endeavors. We meet regularly, and together we guide the overflowing imaginative text through critical sluices into lakes of beauty where the prose is readied for publication.
+      The first are endowed with a wellspring of irrepressible imagination and have a visceral need to bring these stories/dreams/inner voices/inspired musing to life. With such writers, my contribution is to encourage them to let their words bubble forth, to serve as their first reader, to guide and sometimes gently critique, but above all else, to witness and champion their creative endeavors. We meet regularly, and together we guide the overflowing imaginative text through critical sluices into lakes of beauty where we prepare it for publication.
 
-      The second type of young writer has a soul that is inspired by a love of literature, psychology and an appreciation of the craft of stitching words together into a tapestry of meaning. My goal is to expose such writers to works of literature that we read together, dissect them for content, structure, phrasing and melody and thereby ignite the student’s desire and will to write their own narrative.`,
+      The second type of writer loves literature and appreciates the craft of weaving words into tapestries of meaning. My goal is to expose such writers to works of literature that we read together, dissect them for content, structure, phrasing, and melody, and thereby ignite the students’ desire and will to write their own narrative.`,
       image: "/images/courses/fiction_3.jpg",
     },
     {
       title: "Reading Greek and Roman Epics and Plays",
-      description: `Two years ago, two precocious students and I embarked on a special reading course. Each Thursday we met to read a chapter of Homer's Iliad, the world's first epic poem. We read with our attention on phrasing and meaning. I guided the young men on a journey of discovery: of the text, of the age of Greek heroes, and of themselves.
+      description: `Two years ago, two precocious students and I embarked on a special reading course. We met each Tuesday, and each week we read a chapter of the Iliad, the magisterial first Greek epic poem. I guided the students on a journey of discovery: of the text, of the age of Greek heroes, and of themselves.
 
-      The course proved to be so much fun that we decided to continue to read the next epic poem: Homer’s Odyssey. Here I am guiding my excellent students on a journey of understanding of what it means to be a full human being.  
+      The course proved to be so much fun that we decided to continue reading other epics, namely the Odyssey and the Aeneid. We will next read classic Greek Plays such as Oedipus Rex, the Oresteia, and Medea.
 
-      Next will next read classic Greek Plays such as Oedipus Rex, the Oresteia and Medea. We will also tackle the greatest Roman epic, Virgil's Aeneid. 
-
-      I am actively looking for students who would like to join us and open their minds, hearts and souls to timeless epic poetry in the company of the very brightest students.`,
+      My goal is to guide students on a journey of understanding what it meant to live life fully in the Ancient World and what it means to live a life fully in the present era. It is a journey of close reading, reflection, interpretation, and deep discussion. I am looking for students who would like to join us.`,
       image: "/images/courses/greek_4.jpg",
     },
   ];
