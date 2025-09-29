@@ -52,7 +52,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
         "/images/courses/test_prep_3.jpg",
     },
     {
-      title: "University Application Counseling",
+      title: "University Admissions",
       description:
         `Over the course of the past fifteen years, I have helped students gain admission to Stanford, Princeton, Brown, Cornell, Dartmouth, MIT, the University of Pennsylvania, Georgetown, the University of California at Berkeley, the University of Texas at Austin, Oxford, the London School of Economics, and many other fine institutions. I support students and parents in every aspect of the college admissions application process, from advising first-year high school students on course selection to helping sophomores and juniors start their own nonprofit organizations to guiding seniors as they express their inner selves in truthful, heartfelt, and memorable personal statements.
 `,
@@ -74,14 +74,14 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
         "/images/courses/history_2.jpg",
     },
     {
-      title: "Reading and Writing Fiction",
+      title: "Exploring Fiction",
       description:
         "Young readers and writers of fiction fall into two categories. The first are endowed with a wellspring of irrepressible imagination and have a visceral need to bring these stories/dreams/inner voices/inspired musing to life. With such writers, my contribution is to encourage them to let their words bubble forth, to serve as their first reader, to guide and sometimes gently critique, but above all else, to witness and champion their creative endeavors.",
       image:
         "/images/courses/fiction_4.jpg",
     },
     {
-      title: "Reading Greek and Roman Epics and Plays",
+      title: "Examining Greek and Roman Epics and Plays",
       description:
         "Two years ago, two precocious students and I embarked on a special reading course. We met each Tuesday, and each week we read a chapter of the Iliad, the magisterial first Greek epic poem. I guided the students on a journey of discovery: of the text, of the age of Greek heroes, and of themselves. The course proved to be so much fun that we decided to continue reading other epics, namely the Odyssey and the Aeneid. ",
       image:
@@ -107,7 +107,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
       image: "/images/courses/test_prep.jpg",
     },
     {
-      title: "University Application Counseling",
+      title: "University Admissions",
       description: `Over the course of the past fifteen years, I have helped students gain admission to Stanford, Princeton, Brown, Cornell, Dartmouth, MIT, the University of Pennsylvania, Georgetown, the University of California at Berkeley, the University of Texas at Austin, Oxford, the London School of Economics, and many other fine institutions. 
 
       I support students and parents in every aspect of the college admissions application process, from advising first-year high school students on course selection to helping sophomores and juniors start their own nonprofit organizations to guiding seniors as they express their inner selves in truthful, heartfelt, and memorable personal statements. 
@@ -136,7 +136,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
       image: "/images/courses/history_3.jpg",
     },
     {
-      title: "Reading and Writing Fiction",
+      title: "Exploring Fiction",
       description: `Young readers and writers of fiction fall into two categories.
 
       The first are endowed with a wellspring of irrepressible imagination and have a visceral need to bring these stories/dreams/inner voices/inspired musing to life. With such writers, my contribution is to encourage them to let their words bubble forth, to serve as their first reader, to guide and sometimes gently critique, but above all else, to witness and champion their creative endeavors. We meet regularly, and together we guide the overflowing imaginative text through critical sluices into lakes of beauty where we prepare it for publication.
@@ -145,7 +145,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
       image: "/images/courses/fiction_3.jpg",
     },
     {
-      title: "Reading Greek and Roman Epics and Plays",
+      title: "Examining Greek and Roman Epics and Plays",
       description: `Two years ago, two precocious students and I embarked on a special reading course. We met each Tuesday, and each week we read a chapter of the Iliad, the magisterial first Greek epic poem. I guided the students on a journey of discovery: of the text, of the age of Greek heroes, and of themselves.
 
       The course proved to be so much fun that we decided to continue reading other epics, namely the Odyssey and the Aeneid. We will next read classic Greek Plays such as Oedipus Rex, the Oresteia, and Medea.
@@ -177,9 +177,9 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
           {/* Section Header */}
           <div className=" mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4 text-center ">
-              Courses I Lead
+              Courses and Journeys I Lead
             </h2>
-            <div className="w-30 md:w-50 h-1.5 bg-primary rounded-full mx-auto mb-10"></div>
+            <div className="w-40 md:w-100 h-1.5 bg-primary rounded-full mx-auto mb-10"></div>
             <p className="text-xl text-muted-foreground max-w-6xl mx-auto text-center ">
               Each course below is a one-on-one intellectual journey. During the journey, I not only pass on content knowledge but guide students to broaden their comprehension, deepen their insights, and learn how to articulate their newfound understanding.
             </p>

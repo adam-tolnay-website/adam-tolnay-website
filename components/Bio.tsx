@@ -36,7 +36,7 @@ export default function BioSection() {
             {/* Bio Text - Intro */}
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p className="text-lg">
-                I was born into a Hungarian-speaking community in rural Romania and grew up in New York City. As an immigrant, albeit at a young age, I understood that education was my only ladder to possible success. As such, I spent the first third of my life completing courses of study and completing fellowships at <b>Harvard College (Magna Cum Laude)</b>, <b>the London School of Economics</b>, <b>Georgetown University</b>, and <b>Stanford University</b>.
+                I was born into a Hungarian-speaking community in rural Romania and grew up in New York City. As an immigrant, albeit at a young age, I understood that education was my only ladder to possible success. As such, I spent the first third of my life completing courses of study and fellowships at <b>Harvard College (Magna Cum Laude)</b>, <b>the London School of Economics</b>, <b>Georgetown University</b>, and <b>Stanford University</b>.
               </p>
 
               <p className="text-lg">
@@ -130,7 +130,7 @@ export default function BioSection() {
             <div className="grid lg:grid-cols-2 gap-8 items-start">
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p className="text-md">
-                  I was born into a Hungarian-speaking community in rural Romania and grew up in New York City. As an immigrant, albeit at a young age, I understood that education was my only ladder to possible success. As such, I spent the first third of my life completing courses of study and completing fellowships at Harvard College (Magna Cum Laude), the London School of Economics, Georgetown University, and Stanford University.
+                  I was born into a Hungarian-speaking community in rural Romania and grew up in New York City. As an immigrant, albeit at a young age, I understood that education was my only ladder to possible success. As such, I spent the first third of my life completing courses of study and fellowships at Harvard College (Magna Cum Laude), the London School of Economics, Georgetown University, and Stanford University.
                 </p>
 
                 <p className="text-md">
