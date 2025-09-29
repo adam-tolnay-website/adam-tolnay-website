@@ -54,35 +54,36 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
     {
       title: "University Application Counseling",
       description:
-        `Over the course of the past fifteen years, I have helped students gain admission to Princeton, Stanford, Brown, Cornell, Dartmouth, MIT, the University of Pennsylvania, Georgetown, the University of California at Berkeley, the University of Texas at Austin, Oxford and many other fine institutions. `,
+        `Over the course of the past fifteen years, I have helped students gain admission to Stanford, Princeton, Brown, Cornell, Dartmouth, MIT, the University of Pennsylvania, Georgetown, the University of California at Berkeley, the University of Texas at Austin, Oxford, the London School of Economics, and many other fine institutions. I support students and parents in every aspect of the college admissions application process, from advising first-year high school students on course selection to helping sophomores and juniors start their own nonprofit organizations to guiding seniors as they express their inner selves in truthful, heartfelt, and memorable personal statements.
+`,
       image:
         "/images/courses/ivy_league_prep.jpg",
     },
     {
       title: "Non-Fiction Writing",
       description:
-        `Writing goals vary. My students have submitted essays for the John Locke Essay Contest, the New York Times Writing Contest, opinion and editorial pieces, and summer school applications. They have also written speeches and presentations that were delivered in front of wide audiences, and crafted works of various lengths and genres submitted as part of curricular projects.`, 
+        `Writing goals vary. My students have submitted essays for the John Locke Essay Contest, the New York Times Writing Contest, opinion and editorial pieces, and summer school applications. They wrote speeches and presentations that they later delivered to live audiences, and crafted works of various lengths and genres submitted as part of curricular projects.`, 
     image:
         "/images/courses/nonfiction_2.jpg",
     },
     {
       title: "Reading and Writing History",
       description:
-        "Over the years my students and I have read and discussed: the history of the Roman Empire with a focus on the life of Augustus Cesar, the Revolutionary War and the Constitutional Convention, the Age of Jackson, the history of the Transcontinental Railroad, the Industrialization of Japan and the creation of the Japanese Colonial Empire, World War I on the Western and Eastern Front, Stalinism, and the building and destruction of the Berlin Wall.",
+        "Over the years my students and I have read and discussed: the Age of Jackson, the history of the Transcontinental Railroad, the Industrialization of Japan and the creation of the Japanese Colonial Empire, Stalinism, and more. My most advanced student, a 15-year-old, is at present completing his masterful 100+ page book on the Battles of the Napoleonic Wars.",
       image:
         "/images/courses/history_2.jpg",
     },
     {
       title: "Reading and Writing Fiction",
       description:
-        "My goal is to expose writers to works of literature that we read together, dissect them for content, structure, phrasing and melody and thereby ignite the student's desire and will to write their own narrative. We meet regularly, and together we guide the overflowing imaginative text through critical sluices into lakes of beauty where the prose is readied for publication.",
+        "Young readers and writers of fiction fall into two categories. The first are endowed with a wellspring of irrepressible imagination and have a visceral need to bring these stories/dreams/inner voices/inspired musing to life. With such writers, my contribution is to encourage them to let their words bubble forth, to serve as their first reader, to guide and sometimes gently critique, but above all else, to witness and champion their creative endeavors.",
       image:
         "/images/courses/fiction_4.jpg",
     },
     {
       title: "Reading Greek and Roman Epics and Plays",
       description:
-        "Two years ago, two precocious students and I embarked on a special reading course. Week after week we met to discuss Homer's Iliad, which we read with our attention centered not on plot or character development but on phrasing and meaning. In the process, we learned to listen to the wisdom and the fun of these texts—and learned to love the classics.",
+        "Two years ago, two precocious students and I embarked on a special reading course. We met each Tuesday, and each week we read a chapter of the Iliad, the magisterial first Greek epic poem. I guided the students on a journey of discovery: of the text, of the age of Greek heroes, and of themselves. The course proved to be so much fun that we decided to continue reading other epics, namely the Odyssey and the Aeneid. ",
       image:
         "/images/courses/greek_3.jpg",
     },
@@ -190,7 +191,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
               <Card
                 key={index}
                 onClick={() => handleCardClick(card.title)}
-                className="group relative border-2 border-border/50 hover:border-primary/30 transition-all duration-500 hover:scale-102 hover:shadow-2xl bg-card/50 backdrop-blur-sm cursor-pointer transform-gpu h-[440px] flex flex-col gap-0"
+                className="group relative border-2 border-border/50 hover:border-primary/30 transition-all duration-500 hover:scale-102 hover:shadow-2xl bg-card/50 backdrop-blur-sm cursor-pointer transform-gpu h-[560px] flex flex-col gap-0"
               >
                 <CardHeader className="space-y-4 pb-4 flex-shrink-0">
                   {/* Card Image */}
@@ -210,7 +211,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
                 </CardHeader>
 
                 <CardContent className="pt-0 relative flex-1 overflow-hidden">
-                  <CardDescription className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300 line-clamp-10 pr-2">
+                  <CardDescription className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300 line-clamp-[10] pr-2">
                     {card.description}
                   </CardDescription>
                   
