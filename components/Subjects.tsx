@@ -190,9 +190,9 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
               <Card
                 key={index}
                 onClick={() => handleCardClick(card.title)}
-                className="group relative border-2 border-border/50 hover:border-primary/30 transition-all duration-500 hover:scale-102 hover:shadow-2xl bg-card/50 backdrop-blur-sm cursor-pointer transform-gpu"
+                className="group relative border-2 border-border/50 hover:border-primary/30 transition-all duration-500 hover:scale-102 hover:shadow-2xl bg-card/50 backdrop-blur-sm cursor-pointer transform-gpu h-[440px] flex flex-col gap-0"
               >
-                <CardHeader className="space-y-4 pb-4">
+                <CardHeader className="space-y-4 pb-4 flex-shrink-0">
                   {/* Card Image */}
                   <div className="relative h-48 overflow-hidden rounded-lg">
                     <Image
@@ -204,21 +204,21 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
                     />
                   </div>
 
-                  <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">
+                  <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors duration-300 min-h-[56px] flex items-center">
                     {card.title}
                   </CardTitle>
                 </CardHeader>
 
-                <CardContent className="pt-0 relative h-40">
-                  <CardDescription className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300 line-clamp-6 pr-2">
+                <CardContent className="pt-0 relative flex-1 overflow-hidden">
+                  <CardDescription className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300 line-clamp-10 pr-2">
                     {card.description}
                   </CardDescription>
                   
                   {/* Fade out gradient */}
-                  <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-card via-card/90 to-transparent pointer-events-none" />
+                  <div className="absolute bottom-0 left-0 right-0 h-14 bg-gradient-to-t from-card via-card/90 to-transparent pointer-events-none" />
                   
                   {/* Read more indicator */}
-                  <div className="absolute bottom-3 left-0 right-0 flex items-center justify-center gap-2 text-primary font-medium">
+                  <div className="absolute bottom-2 left-0 right-0 flex items-center justify-center gap-2 text-primary font-medium">
                     <span>Read more</span>
                     <svg 
                       className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" 

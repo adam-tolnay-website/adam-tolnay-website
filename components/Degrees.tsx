@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const Degrees = () => {
   return (
-    <div className="mx-auto max-w-4xl grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 md:gap-8 lg:gap-24 items-center justify-items-center px-4">
-      <div className="relative w-20 h-12 sm:w-28 sm:h-16 md:w-40 md:h-20 lg:w-60 lg:h-20">
+    <div className="mx-auto max-w-5xl grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-4 md:gap-6 lg:gap-8 items-center justify-items-center px-4">
+      <div className="relative w-32 h-20 sm:w-32 sm:h-20 md:w-40 md:h-24 lg:w-48 lg:h-28">
         <Image
           src="/images/Harvard.png"
           alt="Harvard"
@@ -12,7 +12,7 @@ const Degrees = () => {
           className="object-contain"
         />
       </div>
-      <div className="relative w-20 h-12 sm:w-28 sm:h-16 md:w-40 md:h-20 lg:w-60 lg:h-20">
+      <div className="relative w-32 h-20 sm:w-32 sm:h-20 md:w-40 md:h-24 lg:w-48 lg:h-28">
         <Image
           src="/images/LSE.png"
           alt="LSE"
@@ -20,7 +20,7 @@ const Degrees = () => {
           className="object-contain"
         />
       </div>
-      <div className="relative w-20 h-12 sm:w-28 sm:h-16 md:w-40 md:h-20 lg:w-60 lg:h-20">
+      <div className="relative w-32 h-20 sm:w-32 sm:h-20 md:w-40 md:h-24 lg:w-48 lg:h-28">
         <Image
           src="/images/georgetown.png"
           alt="Georgetown"
@@ -28,7 +28,7 @@ const Degrees = () => {
           className="object-contain"
         />
       </div>
-      <div className="relative w-20 h-12 sm:w-28 sm:h-16 md:w-40 md:h-20 lg:w-60 lg:h-20">
+      <div className="relative w-32 h-20 sm:w-32 sm:h-20 md:w-40 md:h-24 lg:w-48 lg:h-28">
         <Image
           src="/images/Stanford.png"
           alt="Stanford"
