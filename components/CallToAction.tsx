@@ -32,7 +32,7 @@ export default function CallToAction() {
           asChild
         >
           <Link href={siteConfig.links.email} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
-            Send me an email
+            Reach out with an email
             <Mail className="ml-2 w-6 h-6" />
           </Link>
         </Button>
