@@ -40,13 +40,7 @@ export default function BioSection() {
               </p>
 
               <p className="text-lg">
-                I spent the first third of my life aspiring to and completing courses of study at some of the world&apos;s most selective institutions: <b>Harvard College A.B. Magna Cum Laude
-                  </b>, <b>the London School of Economics M.Sc.</b>, <b>Harvard University A.M.</b>, <b>
-                  Georgetown University Ph.D. ABD</b>, <b>Stanford University Reuters Digital
-                  Visions Fellowship</b>. 
-              </p>
-              <p className="text-lg">
-                At each and every step, I was fortunate to have been mentored by intellectually robust and personally generous educators such as Prof. Ezra Vogel, Prof. Dominic Lieven, Prof. Michael Puett. They took a genuine interest in my intellectual development and opened my eyes to new ways of seeing the world.
+                At every step of my development, I was fortunate to have been mentored by intellectually robust and personally generous educators such as Prof. Ezra Vogel, Prof. Dominic Lieven, and Prof. Clifford Nass. Each took a genuine interest in my personal and intellectual development and also opened my eyes to new ways of seeing the world.
               </p>
             </div>
 
@@ -56,7 +50,7 @@ export default function BioSection() {
               onClick={() => setIsModalOpen(true)}
               className="inline-flex items-center gap-2 font-medium group"
             >
-              <span>Read full biography</span>
+              <span>Continue reading biography</span>
               <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
 
@@ -106,9 +100,6 @@ export default function BioSection() {
                     priority
                     sizes="(max-width: 640px) 200px, (max-width: 768px) 400px, 50vw"
                 />
-
-                {/* Optional overlay for better contrast */}
-                {/* <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl" /> */}
             </div>
 
               {/* Floating badge - adjusted position and size for mobile */}
@@ -139,23 +130,17 @@ export default function BioSection() {
             <div className="grid lg:grid-cols-2 gap-8 items-start">
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p className="text-md">
-                  I am a lifelong educator committed to passing on the personalized mentoring 
-                  that I was fortunate enough to receive throughout the entire arc of my own academic, 
-                  intellectual and life journey.
+                  I was born into a Hungarian-speaking community in rural Romania and grew up in New York City. As an immigrant, albeit at a young age, I understood that education was my only ladder to possible success. As such, I spent the first third of my life completing courses of study and completing fellowships at <b>Harvard College, Magna Cum Laude</b>, <b>the London School of Economics</b>, <b>Georgetown University</b>, and <b>Stanford University</b>.
                 </p>
 
                 <p className="text-md">
-                  I spent the first third of my life aspiring to and completing courses of study at some of the world&apos;s most selective institutions: <b>Harvard College A.B. Magna Cum Laude
-                    </b>, <b>the London School of Economics M.Sc.</b>, <b>Harvard University A.M.</b>, <b>
-                    Georgetown University Ph.D. ABD</b>, <b>Stanford University Reuters Digital
-                    Visions Fellowship</b>. 
+                  At every step of my development, I was fortunate to have been mentored by intellectually robust and personally generous educators such as Prof. Ezra Vogel, Prof. Dominic Lieven, and Prof. Clifford Nass. Each took a genuine interest in my personal and intellectual development and also opened my eyes to new ways of seeing the world.
                 </p>
                 <p className="text-md">
-                  At each and every step, I was fortunate to have been mentored by intellectually robust and personally generous educators such as Prof. Ezra Vogel, Prof. Dominic Lieven, Prof. Michael Puett. They took a genuine interest in my intellectual development and opened my eyes to new ways of seeing the world.
+                  During my second year in college, I launched Learning Enterprises, a non-profit organization that mobilized Harvard undergraduates to teach English in villages in Eastern Europe. The Learning Enterprises program is memorialized in fictionalized autobiographical form by Elif Batuman in her Pulitzer Prize finalist book, The Idiot. I ran Learning Enterprises for 11 years before passing it on to colleagues who replicated our model and extended it to 14 other countries, including China, Thailand, Mexico, Ethiopia, and Mauritius. Later, I launched similar non-profit organizations that imported volunteer teachers to villages in India and to island communities in Papua New Guinea. 
                 </p>
-
-                <p>
-                  In 1992, I launched my first educational non-profit, Learning Enterprises, an organization that mobilized Harvard undergraduates to spend summers teaching English in villages in Eastern Europe. I ran Learning Enterprises for 11 years before passing it on to colleagues who replicated our model and extended it to 14 other countries, including China, Thailand, Mexico, Ethiopia and Mauritius. Later, I launched similar non-profit organizations that brought teachers to rural India and to the islands of Papua New Guinea. The decade and a half spent running people-to-people global educational organizations distilled my life’s mission: to connect students to teachers who care about them beyond the four walls of the classroom and for periods longer than a semester.
+                <p className="text-md">
+                  The decade and a half spent running people-to-people global educational organizations distilled my life’s mission: to connect students to teachers who care about them beyond the four walls of the classroom and for periods longer than a semester.
                 </p>
               </div>
               
@@ -171,15 +156,16 @@ export default function BioSection() {
 
             {/* Second Section */}
             <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>
-                Over the course of the past 15 years, I lived and worked in Asia, serving as the Director of Counseling for Byron Education, a division of Dulwich College International in Shanghai, as the Head of the American Degree Transfer Program at Sunway University in Kuala Lumpur, and as the Ivy League Mentor for Special A Education in Beijing. I was extremely lucky to be able to work one-on-one with some of the brightest and most motivated students on the planet and to serve as a guide to them as they reached for the stars and landed at Stanford, MIT, Dartmouth, Cornell, Georgetown. In working with amazing students I came to see that most high school students lack a mentor who is committed to the development of their own unique intellects and souls.
+              <p className="text-md">
+                Over the past 15 years, I lived and worked as the Director of Counseling for Dulwich College International in Shanghai, as the Head of the American Degree Transfer Program at Sunway University in Kuala Lumpur, and as the Ivy League Mentor for Special A Education in Beijing. I worked one-on-one with some of the brightest and most motivated students on the planet as they reached for the stars and landed at fine institutions such as Stanford, MIT, UPenn, Dartmouth, Cornell, and Georgetown. I came to understand that most high school students lack mentors committed to their personal and intellectual development.
               </p>
-            </div>
-              
-            {/* Final Section */}
-            <div className="text-muted-foreground leading-relaxed">
+
               <p className="text-md text-left">
-                Now, at the spritely age of 55, I seek to pay back my esteemed mentors. I do so by offering my expertise to high school students who seek not only to gain admission to some of the most prestigious universities around the world but who also aspire to think, understand, feel, articulate, discern and express.
+                Now, at the spritely age of 55, I seek to emulate my esteemed mentors. I do so by mentoring students who also aspire to learn how to think, understand, feel, articulate, discern, and express themselves.
+              </p>
+
+              <p className="text-md text-left">
+                My profession, teaching, allows me to be somewhat peripatetic. Each year, I spend a few months in rural New Mexico, reconnect with my ancestral past in Transylvania, and try to soak up sunshine in Southeast Asia. These days, I am drawn to exploring the Arctic and am transitioning to listening to audiobooks to save my eyes for the magnificence of the Northern Lights. 
               </p>
             </div>
 
