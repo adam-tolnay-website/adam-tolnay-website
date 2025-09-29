@@ -74,7 +74,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
         "/images/courses/history_2.jpg",
     },
     {
-      title: "Exploring Fiction",
+      title: "Exploring and Writing Fiction",
       description:
         "Young readers and writers of fiction fall into two categories. The first are endowed with a wellspring of irrepressible imagination and have a visceral need to bring these stories/dreams/inner voices/inspired musing to life. With such writers, my contribution is to encourage them to let their words bubble forth, to serve as their first reader, to guide and sometimes gently critique, but above all else, to witness and champion their creative endeavors.",
       image:
@@ -136,7 +136,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
       image: "/images/courses/history_3.jpg",
     },
     {
-      title: "Exploring Fiction",
+      title: "Exploring and Writing Fiction",
       description: `Young readers and writers of fiction fall into two categories.
 
       The first are endowed with a wellspring of irrepressible imagination and have a visceral need to bring these stories/dreams/inner voices/inspired musing to life. With such writers, my contribution is to encourage them to let their words bubble forth, to serve as their first reader, to guide and sometimes gently critique, but above all else, to witness and champion their creative endeavors. We meet regularly, and together we guide the overflowing imaginative text through critical sluices into lakes of beauty where we prepare it for publication.
