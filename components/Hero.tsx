@@ -16,7 +16,7 @@ interface HeroSectionProps {
 const HeroSection = ({
     title = "Adam Tolnay",
     subtitle = "I am a Harvard-educated mentor who offers personalized instruction and seasoned, caring guidance to aspiring students.", 
-    ctaText = "Book a Trial Lesson",
+    ctaText = "Reach out to me",
 }: HeroSectionProps) => {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -87,7 +87,7 @@ const HeroSection = ({
                         }`}
                         aria-label={`${ctaText} - Contact Adam for lessons`}
                     >
-                        <Link href={siteConfig.links.book} target="_blank">
+                        <Link href={siteConfig.links.email} target="_blank">
                             {ctaText}
                         </Link>
                         <MoveRight className="ml-0 w-5 h-5" />

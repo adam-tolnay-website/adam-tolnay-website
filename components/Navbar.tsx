@@ -10,7 +10,7 @@ import {
 import Link from "next/link";
 import { siteConfig } from "@/lib/config/site";
 import { useState } from "react";
-import { Users, Mail, Menu } from "lucide-react";
+import { Users, PenLine, Menu } from "lucide-react";
 import { handleSmoothScroll } from "@/lib/scroll-utils";
 
 export default function Nav() {
@@ -53,7 +53,8 @@ export default function Nav() {
         </div>
 
         <div className="flex items-center">
-          <div className="hidden lg:flex">
+          {/* Removed the email button */}
+          {/* <div className="hidden lg:flex">
             <Button variant="outline" size="default" asChild>
               <Link
                 href={siteConfig.links.email}
@@ -66,17 +67,17 @@ export default function Nav() {
                 <Mail className="text-muted-foreground w-5 h-5" />
               </Link>
             </Button>
-          </div>
+          </div> */}
 
-          <div className="flex items-center justify-between mx-6">
+          <div className="flex items-center justify-between mr-4">
             <Button
               variant="default"
               className="text-sm elegant-text font-normal bg-primary hover:bg-primary/90"
               asChild
             >
-              <Link href={siteConfig.links.book} target="_blank">
-                <Users className="text-primary-foreground w-5 h-5" />
-                Book a Trial Lesson
+              <Link href={siteConfig.links.email} target="_blank">
+                Reach out to me
+                <PenLine className="text-primary-foreground w-5 h-5 ml-1" />
               </Link>
             </Button>
           </div>
@@ -118,8 +119,8 @@ export default function Nav() {
                   asChild
                 >
                   <Link href="/">
-                    <Users className="text-primary-foreground w-5 h-5 mt-0.5" />
-                    Book a Trial Lesson
+                    Reach out to me
+                    <PenLine className="text-primary-foreground w-5 h-5 ml-1 mt-0.5" />
                   </Link>
                 </Button>
               </div>

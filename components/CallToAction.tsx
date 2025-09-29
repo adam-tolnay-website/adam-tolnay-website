@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/config/site";
-import { Rocket } from "lucide-react";
+import { Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function CallToAction() {
   return (
-    <section className="pt-16 md:pt-32 pb-20 md:pb-60 px-4">
+    <section className="pt-16 md:pt-32 pb-20 md:pb-24 px-4">
       <div className="max-w-3xl mx-auto text-center space-y-12">
         {/* Avatar */}
         <div className="flex justify-center mb-0">
@@ -31,9 +31,9 @@ export default function CallToAction() {
           className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 text-xl font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
           asChild
         >
-          <Link href={siteConfig.links.zoom} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
-            Email Me
-            <Rocket className="ml-2 w-6 h-6" />
+          <Link href={siteConfig.links.email} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+            Send me an email
+            <Mail className="ml-2 w-6 h-6" />
           </Link>
         </Button>
         <p className="text-md text-center">

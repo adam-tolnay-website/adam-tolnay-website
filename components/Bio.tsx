@@ -114,7 +114,7 @@ export default function BioSection() {
             </div>
 
               {/* Floating badge - adjusted position and size for mobile */}
-              <div className="hidden lg:block">
+              {/* <div className="hidden lg:block">
                 <div className="absolute -bottom-4 -left-2 sm:-bottom-6 sm:-left-6 bg-card/95 backdrop-blur-sm border border-border rounded-lg sm:rounded-xl p-3 sm:p-4 shadow-lg">
                   <div className="flex items-center space-x-2 sm:space-x-3">
                     <div className="w-2 h-2 sm:w-3 sm:h-3 bg-green-500 rounded-full animate-pulse"></div>
@@ -123,7 +123,7 @@ export default function BioSection() {
                     </span>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

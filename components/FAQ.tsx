@@ -17,29 +17,25 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "How are your mentoring sessions conducted?",
-      answer: "I work on Zoom and adapt to each student's schedule. Most of my sessions are weekly and last one hour, but I am ready to meet as frequently as necessary to meet deadlines. In the heat of the college application season, a student and I met every few hours for two days straight. The student revised his personal statement 22 times and was rewarded for it. He was admitted to and matriculated at the Wharton School of Business at the University of Pennsylvania.",
+      question: "How are your courses and mentoring sessions conducted?",
+      answer: "All courses and mentoring sessions take place on Zoom. We usually meet weekly, and most sessions last an hour or an hour and a half. I am ready to meet as frequently as necessary to meet deadlines. In the heat of the college application season, a student and I met 8 times during the course of a weekend, during which he revised his personal statement 12 times! The hard work paid off, and the student was admitted to and matriculated at the Wharton School of Business at the University of Pennsylvania.",
     },
     {
-      question: "What's Your Teaching Approach?",
-      answer: "Except for my Reading the Greek and Roman Epics course, I work one-on-one with all my students. This means that, at the outset of each journey, a student and I discuss and together decide on the goals, subject matter, depth, pacing, and deliverables of the course. My goal is to make sure that each student learns how to think more deeply, learns how to write more effectively and grows in wisdom.",
+      question: "What's your teaching approach?",
+      answer: "I usually work one-on-one with all students to maximize time, guidance, and care. At the outset of each journey, a student and I discuss and together decide on the goals, subject matter, depth, pacing, and deliverables of the course. My goal is to ensure that each student learns to think more deeply, learns to write more effectively, and grows in wisdom.",
     },
     {
       question: "How much do lessons cost?",
-      answer: "My courses and journeys are fully customized based on the student’s specific needs and goals. I am happy to discuss rates during an in-depth consultation and offer a select number of sliding scale spots each year.",
-    },
-    {
-      question: "How do I schedule and pay for sessions?",
-      answer: "The student and I schedule our sessions one month or even one semester ahead. I ask the parents to pre-pay for the first ten sessions, and I am, of course, happy to refund any unused time.",
+      answer: "My courses and mentoring sessions are bespoke, tailored to the student’s specific needs and goals. I am happy to discuss rates during an in-depth consultation. I offer value packages and take on a select number of students on a sliding scale basis.",
     },
     {
       question: "What if I need to cancel or reschedule?",
-      answer: "I am happy to cancel or re-schedule sessions free of charge if I am given more than 24 hours notice.",
+      answer: "Lessons and mentoring sessions can be canceled or rescheduled, provided that the student or parent gives me more than 24 hours' notice.",
     }
   ];
 
   return (
-    <section className="py-20 px-4">
+    <section className="pt-20 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -94,8 +90,8 @@ export default function FAQ() {
           ))}
         </div>
 
-        {/* Bottom CTA */}
-        <div className="text-center mt-12 p-8 bg-muted/30 rounded-2xl">
+        {/* Bottom CTA - removed */}
+        {/* <div className="text-center mt-12 p-8 bg-muted/30 rounded-2xl">
           <h3 className="text-xl font-semibold text-foreground mb-2">
             Still have questions?
           </h3>
@@ -107,7 +103,7 @@ export default function FAQ() {
                 Email me directly →
             </Link>
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

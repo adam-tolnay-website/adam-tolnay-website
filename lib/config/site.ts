@@ -7,16 +7,16 @@ export const siteConfig = {
     "I am a Harvard educated mentor committed to passing on the content and spirit of the personalized advising and guidance that I received during the entire arc of my own academic, intellectual and life journey.",
   navItems: [ 
     {
+      label: "Courses",
+      href: "#subjects",
+    },
+    {
       label: "Testimonials",
       href: "#testimonials",
     },
     {
       label: "About Me",
       href: "#bio",
-    },
-    {
-      label: "Courses and Journeys",
-      href: "#subjects",
     },
     {
       label: "FAQ",
