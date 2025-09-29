@@ -25,7 +25,6 @@ export default function Home() {
       <div id="home">
         <HeroSection 
           title="Adam Tolnay"
-          // subtitle="I am a Harvard-educated mentor who offers personalized instruction and seasoned, caring guidance to aspiring students. My mission is to empower each student to find their passion while developing valuable intellectual skills."
           ctaText="Reach out to me directly"
         />
       </div>
@@ -34,22 +33,16 @@ export default function Home() {
         <SubjectsSection isVisible={isVisible} />
       </div>
 
-      {/* Show only on mobile */}
-      <div id="degrees" className="block md:hidden">
-        <Degrees />
-      </div>
-
       <div id="testimonials">
         <TestimonialsSection />
       </div>
 
-      {/* Show only on desktop */}
-      <div id="degrees" className="hidden md:block">
-        <Degrees />
-      </div>
-
       <div id="bio">
         <Bio />
+      </div>
+
+      <div id="degrees" className="block">
+        <Degrees />
       </div>
 
       <div id="faq">

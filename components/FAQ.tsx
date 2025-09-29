@@ -35,7 +35,7 @@ export default function FAQ() {
   ];
 
   return (
-    <section className="pt-20 px-4">
+    <section className="pt-36 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">

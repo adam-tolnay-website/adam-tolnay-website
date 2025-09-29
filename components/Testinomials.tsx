@@ -181,7 +181,7 @@ const TestimonialsSection = () => {
 
   return (
     <section
-      className={`pb-20 overflow-hidden transition-all duration-700 ${
+      className={`overflow-hidden transition-all duration-700 ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
       }`}
       aria-label="Student testimonials"
