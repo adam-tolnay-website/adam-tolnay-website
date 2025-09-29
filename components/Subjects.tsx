@@ -49,7 +49,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
       description:
         `I train and coach students to achieve maximum scores on the following exams: SSAT, SAT, ACT, GRE, GMAT, AP English Language and Composition, AP English Literature and Composition, AP World History: Modern, AP European History, AP United States History, AP Comparative Government and Politics, AP United States Government and Politics, AP Human Geography.`, 
     image:
-        "/images/courses/test_prep_2.jpg",
+        "/images/courses/test_prep_3.jpg",
     },
     {
       title: "University Application Counseling",
