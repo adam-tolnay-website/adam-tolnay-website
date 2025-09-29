@@ -41,7 +41,7 @@ const TestimonialsSection = () => {
       content:
         "Our daughter Kim surprised us when she asked if she could teach in Africa. We were worried and accompanied her. She taught so well on Rodrigues Island, Mauritius and we were very proud of her. Adam then worked with us and helped Kim discover the best liberal arts university in Canada. As parents who have witnessed first hand the work and the care Adam put into both the summer program and into helping us select universities we would like to express our support for Adam and his work.",
       rating: 5,
-      avatar: "MJ",
+      avatar: "EY",
     },
     {
       id: 3,
@@ -50,11 +50,20 @@ const TestimonialsSection = () => {
       content:
         "Adam was not only a tutor but also a coach and mentor to me when I was studying for the GMAT. He helped me to score well on the GMAT when I was floundering with standardized testing. Adam is not only an exceptional tutor but ever since I've known him he has been in the space of enriching academic lives of students through mentoring. ",
       rating: 5,
-      avatar: "ER",
+      avatar: "AJ",
+    },
+    {
+      id: 4,
+      name: "Alex W.",
+      role: "Student at University of Cambridge",
+      content:
+        "I first started working with Adam back in 8th grade, and over the last five years, he has been absolutely instrumental in my growth as a student and writer. From guiding me through the New York Times editorial contests to strengthening my applications for selective summer programs to helping me craft and refine my college applications, Adam has been there at every step. Throughout high school, Adam challenged me to think critically, express myself with confidence, and aim higher than I thought possible. I can say without hesitation that I would not be where I am today without Adam’s support.",
+      rating: 5,
+        avatar: "AW",
     },
   ];
 
-  // Second row testimonials
+  // Second row testimonials (not included - will update and add later. Currently has filler content)
   const testimonials2: Testimonial[] = [
     {
       id: 6,

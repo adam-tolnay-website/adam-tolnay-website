@@ -75,14 +75,14 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
     {
       title: "Reading and Writing Fiction",
       description:
-        "My goal is to expose writers to works of literature that we read together, dissect them for content, structure, phrasing and melody and thereby ignite the student’s desire and will to write their own narrative. We meet regularly, and together we guide the overflowing imaginative text through critical sluices into lakes of beauty where the prose is readied for publication.",
+        "My goal is to expose writers to works of literature that we read together, dissect them for content, structure, phrasing and melody and thereby ignite the student's desire and will to write their own narrative. We meet regularly, and together we guide the overflowing imaginative text through critical sluices into lakes of beauty where the prose is readied for publication.",
       image:
         "/images/courses/fiction_4.jpg",
     },
     {
       title: "Reading Greek and Roman Epics and Plays",
       description:
-        "Two years ago, two precocious students and I embarked on a special reading course. Week after week we met to discuss Homer’s Iliad, which we read with our attention centered not on plot or character development but on phrasing and meaning. In the process, we learned to listen to the wisdom and the fun of these texts—and learned to love the classics.",
+        "Two years ago, two precocious students and I embarked on a special reading course. Week after week we met to discuss Homer's Iliad, which we read with our attention centered not on plot or character development but on phrasing and meaning. In the process, we learned to listen to the wisdom and the fun of these texts—and learned to love the classics.",
       image:
         "/images/courses/greek_3.jpg",
     },
@@ -129,7 +129,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
 
         Over the years my students and I have read and discussed: the history of the Roman Empire with a focus on the life of Augustus Cesar, the Revolutionary War and the Constitutional Convention, the Age of Jackson, the history of the Transcontinental Railroad, the Industrialization of Japan and the creation of the Japanese Colonial Empire, World War I on the Western and Eastern Front, Stalinism, and the building and destruction of the Berlin Wall.
 
-        Each of my courses is bespoke and tailored specifically to a student’s specific interests. The student and I work in tandem: we choose a topic and era to explore, select the books we will read, and set the pace and goals of the course. Most often, we read college-level books and meet weekly to review chapters.
+        Each of my courses is bespoke and tailored specifically to a student's specific interests. The student and I work in tandem: we choose a topic and era to explore, select the books we will read, and set the pace and goals of the course. Most often, we read college-level books and meet weekly to review chapters.
 
         Some of my students also choose to write papers and books. My most advanced student, a 15-year-old, is at present completing his masterful 100+ page book on the Battles of the Napoleonic Wars.`,
       image: "/images/courses/history_3.jpg",
@@ -140,7 +140,7 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
 
       The first are endowed with a wellspring of irrepressible imagination and have a visceral need to bring these stories/dreams/inner voices/inspired musing to life. With such writers, my contribution is to encourage them to let their words bubble forth, to serve as their first reader, to guide and sometimes gently critique, but above all else, to witness and champion their creative endeavors. We meet regularly, and together we guide the overflowing imaginative text through critical sluices into lakes of beauty where we prepare it for publication.
 
-      The second type of writer loves literature and appreciates the craft of weaving words into tapestries of meaning. My goal is to expose such writers to works of literature that we read together, dissect them for content, structure, phrasing, and melody, and thereby ignite the students’ desire and will to write their own narrative.`,
+      The second type of writer loves literature and appreciates the craft of weaving words into tapestries of meaning. My goal is to expose such writers to works of literature that we read together, dissect them for content, structure, phrasing, and melody, and thereby ignite the students' desire and will to write their own narrative.`,
       image: "/images/courses/fiction_3.jpg",
     },
     {
@@ -209,10 +209,26 @@ const SubjectsSection = ({ isVisible = true }: SubjectsSectionProps) => {
                   </CardTitle>
                 </CardHeader>
 
-                <CardContent className="pt-0">
-                  <CardDescription className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300">
+                <CardContent className="pt-0 relative h-40">
+                  <CardDescription className="text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300 line-clamp-6 pr-2">
                     {card.description}
                   </CardDescription>
+                  
+                  {/* Fade out gradient */}
+                  <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-card via-card/90 to-transparent pointer-events-none" />
+                  
+                  {/* Read more indicator */}
+                  <div className="absolute bottom-3 left-0 right-0 flex items-center justify-center gap-2 text-primary font-medium">
+                    <span>Read more</span>
+                    <svg 
+                      className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" 
+                      fill="none" 
+                      viewBox="0 0 24 24" 
+                      stroke="currentColor"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
                 </CardContent>
 
                 {/* Hover effect overlay */}
